@@ -1,0 +1,74 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Provider {
+  id            String    @id @default(uuid())
+  walletAddress String    @unique
+  name          String
+  email         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  services      Service[]
+  totalEarnings Float     @default(0)
+  claimedAmount Float     @default(0)
+  claims        Claim[]
+}
+
+model Service {
+  id              String   @id @default(uuid())
+  name            String
+  description     String
+  endpointUrl     String
+  price           Float    // token amount (depends on tokenAddress)
+  tokenAddress    String?  // null = native CFX, otherwise ERC20 token address
+  openApiSpec     String?  // JSON string of OpenAPI spec
+  tags            String?  // comma-separated tags
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Gateway & Hosted Data
+  type            String   @default("API") // "API" (External x402), "HOSTED" (Platform Data), "PROXY" (Platform Gateway)
+  content         String?         // For HOSTED type: storage for text data
+  
+  // Stats
+  accessCount     Int      @default(0)
+  totalRevenue    Float    @default(0)
+
+  providerId String
+  provider   Provider @relation(fields: [providerId], references: [id])
+
+  accessLogs AccessLog[]
+}
+
+model AccessLog {
+  id              String   @id @default(uuid())
+  serviceId       String
+  service         Service  @relation(fields: [serviceId], references: [id])
+  callerAddress   String
+  txHash          String?  // transaction hash if payment was made
+  amount          Float
+  providerId      String?  @default("") // Track which provider earned this
+  providerRevenue Float    @default(0)  // Amount owed to provider (after platform fee)
+  timestamp       DateTime @default(now())
+}
+
+model Claim {
+  id          String    @id @default(uuid())
+  providerId  String
+  provider    Provider  @relation(fields: [providerId], references: [id])
+  amount      Float
+  txHash      String?   // Settlement transaction hash
+  status      String    // "pending" | "completed" | "failed"
+  createdAt   DateTime  @default(now())
+  completedAt DateTime?
+}

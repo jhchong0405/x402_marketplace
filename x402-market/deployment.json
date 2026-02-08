@@ -1,0 +1,15 @@
+{
+  "network": "confluxTestnet",
+  "chainId": 71,
+  "deployedAt": "2026-02-07T21:25:17.542Z",
+  "contracts": {
+    "ServiceRegistry": "0x21397d2Ad30C9B32e92AC15Af98D7aE1DB290BC0",
+    "Escrow": "0x8d4712191fa0a189ab95C58aBaF6E19EBEA74c7f",
+    "PaymentProcessor": "0x638d3cA4b09fDA2862765F330cBA74dd8edF39ED",
+    "PaymentToken": "0x865310dc9D0bFE1460caB221B4bF3DA2040b94D7"
+  },
+  "config": {
+    "treasury": "0xC08CC32481e49C167f505EdB5717ab6212012c07",
+    "platformFee": 5
+  }
+}

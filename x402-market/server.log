@@ -1,0 +1,942 @@
+
+> x402-market@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-win32-x64-msvc isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-win32-ia32-msvc isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-linux-arm64-musl isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-linux-arm64-gnu isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-darwin-arm64 isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-win32-arm64-msvc isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-darwin-x64 isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-win32-arm64-msvc isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-win32-x64-msvc isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-win32-ia32-msvc isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-linux-arm64-musl isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-linux-arm64-gnu isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-darwin-arm64 isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /root/project/gwdc/x402-market/node_modules/@next/swc-darwin-x64 isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+ ✓ Ready in 3.4s
+ ○ Compiling /api/agent/services ...
+ ✓ Compiled /api/agent/services in 692ms (58 modules)
+ GET /api/agent/services 200 in 1044ms
+ GET /api/agent/services 200 in 53ms
+ ○ Compiling /api/agent/execute ...
+ ✓ Compiled /api/agent/execute in 1730ms (250 modules)
+[Relayer] Settling payment from 0x81e4CE4E4b079CeC8d420b42F0DEC70A5F26f922 to 0xC08CC32481e49C167f505EdB5717ab6212012c07 for 1000000000000000000
+[Relayer] Transaction sent: 0x17d041421ca44db4c8da23cf1ebece96cc8a691b06096cf4ac57f2aba6989f79
+[Relayer] Settlement failed: Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0xC08CC32481e49C167f505EdB5717ab6212012c07", "to": "0xB6f2355db983518173A8cb3c1D94b92814950D89" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x8ca34c6d2a245539ad1d68d602612dbe6aa16b2b154bb7842dd9c5ee54085e51", "blockNumber": 243710245, "contractAddress": null, "cumulativeGasUsed": "75775", "from": "0xC08CC32481e49C167f505EdB5717ab6212012c07", "gasPrice": "25058333333", "gasUsed": "75775", "hash": "0x17d041421ca44db4c8da23cf1ebece96cc8a691b06096cf4ac57f2aba6989f79", "index": 0, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0xB6f2355db983518173A8cb3c1D94b92814950D89" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (webpack-internal:///(rsc)/./node_modules/ethers/lib.esm/utils/errors.js:145:21)
+    at assert (webpack-internal:///(rsc)/./node_modules/ethers/lib.esm/utils/errors.js:164:15)
+    at checkReceipt (webpack-internal:///(rsc)/./node_modules/ethers/lib.esm/providers/provider.js:1144:68)
+    at JsonRpcProvider.txListener (webpack-internal:///(rsc)/./node_modules/ethers/lib.esm/providers/provider.js:1190:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'CALL_EXCEPTION',
+  action: 'sendTransaction',
+  data: null,
+  reason: null,
+  invocation: null,
+  revert: null,
+  transaction: {
+    to: '0xB6f2355db983518173A8cb3c1D94b92814950D89',
+    from: '0xC08CC32481e49C167f505EdB5717ab6212012c07',
+    data: ''
+  },
+  receipt: TransactionReceipt {
+    provider: JsonRpcProvider {},
+    to: '0xB6f2355db983518173A8cb3c1D94b92814950D89',
+    from: '0xC08CC32481e49C167f505EdB5717ab6212012c07',
+    contractAddress: null,
+    hash: '0x17d041421ca44db4c8da23cf1ebece96cc8a691b06096cf4ac57f2aba6989f79',
+    index: 0,
+    blockHash: '0x8ca34c6d2a245539ad1d68d602612dbe6aa16b2b154bb7842dd9c5ee54085e51',
+    blockNumber: 243710245,
+    logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+    gasUsed: 75775n,
+    blobGasUsed: null,
+    cumulativeGasUsed: 75775n,
+    gasPrice: 25058333333n,
+    blobGasPrice: null,
+    type: 2,
+    status: 0,
+    root: undefined
+  },
+  shortMessage: 'transaction execution reverted'
+}
+ POST /api/agent/execute 500 in 18633ms
+ GET /api/agent/services 200 in 55ms
+[Relayer] Settling payment from 0x81e4CE4E4b079CeC8d420b42F0DEC70A5F26f922 to 0xC08CC32481e49C167f505EdB5717ab6212012c07 for 1000000000000000000
+[Relayer] Transaction sent: 0x562ce78031755baebb879b181ee03357bd3fdd89fe764aee66a6b7f982b43d52
+[Relayer] Transaction confirmed in block 243710300
+ ✓ Compiled /api/demo in 260ms (252 modules)
+ POST /api/demo 405 in 405ms
+ POST /api/agent/execute 200 in 17398ms
+ ✓ Compiled in 230ms (252 modules)
+ GET /api/agent/services 200 in 95ms
+[Relayer] Settling payment from 0x81e4CE4E4b079CeC8d420b42F0DEC70A5F26f922 to 0xC08CC32481e49C167f505EdB5717ab6212012c07 for 1000000000000000000
+[Relayer] Transaction sent: 0x0c9a2fb558f836903757186038b63b6f7db0a2bcf1191fa7e0aeb1e2a3c2428a
+[Relayer] Transaction confirmed in block 243710330
+ POST /api/demo 200 in 25ms
+ POST /api/agent/execute 200 in 17672ms
+ ○ Compiling / ...
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+ReferenceError: indexedDB is not defined
+    at getDB (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:30:25)
+    at eval (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:40:34)
+    at get (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:56:12)
+    at getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:430)
+    at asyncCall (webpack-internal:///(ssr)/./node_modules/unstorage/dist/shared/unstorage.zVDD2mZo.mjs:22:26)
+    at Object.getItem (webpack-internal:///(ssr)/./node_modules/unstorage/dist/index.mjs:167:79)
+    at _.getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:1140)
+    at O (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:2799)
+    at new h (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:3382)
+    at new te (webpack-internal:///(ssr)/./node_modules/@walletconnect/core/dist/index.es.js:89:74029)
+    at new Q (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:45987)
+    at Q.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:46339)
+    at lr.createClient (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32859)
+    at lr.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32656)
+    at lr.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:29507)
+    at v.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:6788)
+    at v.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:2379)
+    at initProvider (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:113:47)
+ReferenceError: indexedDB is not defined
+    at getDB (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:30:25)
+    at eval (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:40:34)
+    at get (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:56:12)
+    at getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:430)
+    at asyncCall (webpack-internal:///(ssr)/./node_modules/unstorage/dist/shared/unstorage.zVDD2mZo.mjs:22:26)
+    at Object.getItem (webpack-internal:///(ssr)/./node_modules/unstorage/dist/index.mjs:167:79)
+    at _.getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:1140)
+    at O (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:2799)
+    at new h (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:3382)
+    at new te (webpack-internal:///(ssr)/./node_modules/@walletconnect/core/dist/index.es.js:89:74029)
+    at new Q (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:45987)
+    at Q.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:46339)
+    at lr.createClient (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32859)
+    at lr.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32656)
+    at lr.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:29507)
+    at v.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:6788)
+    at v.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:2379)
+    at initProvider (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:113:47)
+    at async Object.getProvider (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:128:29)
+    at async Object.setup (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:27:30)
+ ⨯ unhandledRejection: ReferenceError: indexedDB is not defined
+    at getDB (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:30:25)
+    at eval (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:40:34)
+    at get (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:56:12)
+    at getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:430)
+    at asyncCall (webpack-internal:///(ssr)/./node_modules/unstorage/dist/shared/unstorage.zVDD2mZo.mjs:22:26)
+    at Object.getItem (webpack-internal:///(ssr)/./node_modules/unstorage/dist/index.mjs:167:79)
+    at _.getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:1140)
+    at O (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:2799)
+    at new h (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:3382)
+    at new te (webpack-internal:///(ssr)/./node_modules/@walletconnect/core/dist/index.es.js:89:74029)
+    at new Q (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:45987)
+    at Q.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:46339)
+    at lr.createClient (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32859)
+    at lr.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32656)
+    at lr.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:29507)
+    at v.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:6788)
+    at v.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:2379)
+    at initProvider (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:113:47)
+ ⨯ unhandledRejection: ReferenceError: indexedDB is not defined
+    at getDB (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:30:25)
+    at eval (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:40:34)
+    at get (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:56:12)
+    at getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:430)
+    at asyncCall (webpack-internal:///(ssr)/./node_modules/unstorage/dist/shared/unstorage.zVDD2mZo.mjs:22:26)
+    at Object.getItem (webpack-internal:///(ssr)/./node_modules/unstorage/dist/index.mjs:167:79)
+    at _.getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:1140)
+    at O (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:2799)
+    at new h (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:3382)
+    at new te (webpack-internal:///(ssr)/./node_modules/@walletconnect/core/dist/index.es.js:89:74029)
+    at new Q (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:45987)
+    at Q.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:46339)
+    at lr.createClient (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32859)
+    at lr.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32656)
+    at lr.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:29507)
+    at v.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:6788)
+    at v.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:2379)
+    at initProvider (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:113:47)
+ ⨯ unhandledRejection: ReferenceError: indexedDB is not defined
+    at getDB (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:30:25)
+    at eval (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:40:34)
+    at get (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:56:12)
+    at getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:430)
+    at asyncCall (webpack-internal:///(ssr)/./node_modules/unstorage/dist/shared/unstorage.zVDD2mZo.mjs:22:26)
+    at Object.getItem (webpack-internal:///(ssr)/./node_modules/unstorage/dist/index.mjs:167:79)
+    at _.getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:1140)
+    at O (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:2799)
+    at new h (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:3382)
+    at new te (webpack-internal:///(ssr)/./node_modules/@walletconnect/core/dist/index.es.js:89:74029)
+    at new Q (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:45987)
+    at Q.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:46339)
+    at lr.createClient (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32859)
+    at lr.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32656)
+    at lr.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:29507)
+    at v.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:6788)
+    at v.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:2379)
+    at initProvider (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:113:47)
+    at async Object.getProvider (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:128:29)
+    at async Object.setup (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:27:30)
+ ⨯ unhandledRejection: ReferenceError: indexedDB is not defined
+    at getDB (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:30:25)
+    at eval (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:40:34)
+    at get (webpack-internal:///(ssr)/./node_modules/idb-keyval/dist/index.js:56:12)
+    at getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:430)
+    at asyncCall (webpack-internal:///(ssr)/./node_modules/unstorage/dist/shared/unstorage.zVDD2mZo.mjs:22:26)
+    at Object.getItem (webpack-internal:///(ssr)/./node_modules/unstorage/dist/index.mjs:167:79)
+    at _.getItem (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:1140)
+    at O (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:2799)
+    at new h (webpack-internal:///(ssr)/./node_modules/@walletconnect/keyvaluestorage/dist/index.es.js:9:3382)
+    at new te (webpack-internal:///(ssr)/./node_modules/@walletconnect/core/dist/index.es.js:89:74029)
+    at new Q (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:45987)
+    at Q.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/sign-client/dist/index.es.js:38:46339)
+    at lr.createClient (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32859)
+    at lr.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:32656)
+    at lr.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/universal-provider/dist/index.es.js:40:29507)
+    at v.initialize (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:6788)
+    at v.init (webpack-internal:///(ssr)/./node_modules/@walletconnect/ethereum-provider/dist/index.es.js:14:2379)
+    at initProvider (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:113:47)
+    at async Object.getProvider (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:128:29)
+    at async Object.setup (webpack-internal:///(ssr)/./node_modules/@wagmi/connectors/dist/esm/walletConnect.js:27:30)
+ ⨯ WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/reacthttps://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.5.7
+digest: "3459016120"
+ GET / 500 in 27339ms
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/root/project/gwdc/x402-market/.next/server/app/api'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/demo/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/demo/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/demo/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/demo/route (expected /root/project/gwdc/x402-market/.next/server/app/api/demo/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/agent/execute/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/agent/execute/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/agent/execute/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/agent/execute/route (expected /root/project/gwdc/x402-market/.next/server/app/api/agent/execute/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/agent/services/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/agent/services/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/agent/services/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/agent/services/route (expected /root/project/gwdc/x402-market/.next/server/app/api/agent/services/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/root/project/gwdc/x402-market/.next/server/app/api'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/demo/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/demo/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/demo/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/demo/route (expected /root/project/gwdc/x402-market/.next/server/app/api/demo/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/agent/execute/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/agent/execute/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/agent/execute/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/agent/execute/route (expected /root/project/gwdc/x402-market/.next/server/app/api/agent/execute/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+ GET /favicon.ico 200 in 2612ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/root/project/gwdc/x402-market/.next/server/app/favicon.ico'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/favicon.ico/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/favicon.ico/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/favicon.ico/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/favicon.ico/route (expected /root/project/gwdc/x402-market/.next/server/app/favicon.ico/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/entries.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/entries.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack-config.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack-config.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/analysis/parse-module.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/analysis/parse-module.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/analysis/get-page-static-info.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/analysis/get-page-static-info.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/demo/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/demo/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/demo/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/demo/route (expected /root/project/gwdc/x402-market/.next/server/app/api/demo/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/entries.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/entries.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack-config.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack-config.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/analysis/parse-module.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/analysis/parse-module.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/analysis/get-page-static-info.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/analysis/get-page-static-info.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/root/project/gwdc/x402-market/.next/server/app/api'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/demo/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/demo/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/demo/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/demo/route (expected /root/project/gwdc/x402-market/.next/server/app/api/demo/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/entries.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/entries.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack-config.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack-config.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/agent/execute/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/agent/execute/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/agent/execute/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/agent/execute/route (expected /root/project/gwdc/x402-market/.next/server/app/api/agent/execute/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/entries.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/entries.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack-config.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack-config.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/agent/services/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/agent/services/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/agent/services/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/agent/services/route (expected /root/project/gwdc/x402-market/.next/server/app/api/agent/services/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/entries.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/entries.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack-config.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack-config.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/root/project/gwdc/x402-market/.next/server/app/api'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/demo/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/demo/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/demo/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/demo/route (expected /root/project/gwdc/x402-market/.next/server/app/api/demo/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/agent/execute/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/agent/execute/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/agent/execute/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/agent/execute/route (expected /root/project/gwdc/x402-market/.next/server/app/api/agent/execute/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/WalletButton.tsx
+./src/components/Navigation.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/WalletButton.tsx
+./src/components/Navigation.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/root/project/gwdc/x402-market/.next/server/app'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/favicon.ico/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/favicon.ico/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/favicon.ico/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/favicon.ico/route (expected /root/project/gwdc/x402-market/.next/server/app/favicon.ico/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-app-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-app-loader.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/demo/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/demo/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/demo/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/demo/route (expected /root/project/gwdc/x402-market/.next/server/app/api/demo/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-app-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-app-loader.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/root/project/gwdc/x402-market/.next/server/app'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/favicon.ico/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/favicon.ico/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/favicon.ico/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/favicon.ico/route (expected /root/project/gwdc/x402-market/.next/server/app/favicon.ico/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/demo/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/demo/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/demo/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/demo/route (expected /root/project/gwdc/x402-market/.next/server/app/api/demo/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/agent/execute/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/agent/execute/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/agent/execute/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/agent/execute/route (expected /root/project/gwdc/x402-market/.next/server/app/api/agent/execute/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/api/agent/services/route' in /root/project/gwdc/x402-market/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/root/project/gwdc/x402-market/.next/server/app/api/agent/services/route.js', but to 'Error: Can't resolve '../../../../.next/server/app/api/agent/services/route' in '/root/project/gwdc/x402-market/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/api/agent/services/route (expected /root/project/gwdc/x402-market/.next/server/app/api/agent/services/route.js)
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/require.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/bundle5.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/compiled/webpack/webpack.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/swc/index.js
+<w>  at file dependencies /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at file /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+<w>  at resolve commonjs /root/project/gwdc/x402-market/node_modules/next/dist/build/webpack/loaders/next-barrel-loader.js
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/WalletButton.tsx
+./src/components/Navigation.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/WalletButton.tsx
+./src/components/Navigation.tsx
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/WalletButton.tsx
+./src/components/Navigation.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/WalletButton.tsx
+./src/components/Navigation.tsx
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/WalletButton.tsx
+./src/components/Navigation.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/WalletButton.tsx
+./src/components/Navigation.tsx
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+ ⚠ ./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+Module not found: Can't resolve 'encoding' in '/root/project/gwdc/x402-market/node_modules/@metamask/sdk/dist/node/es'
+
+Import trace for requested module:
+./node_modules/@metamask/sdk/dist/node/es/metamask-sdk.js
+./node_modules/@wagmi/connectors/dist/esm/metaMask.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+
+./node_modules/pino/lib/tools.js
+Module not found: Can't resolve 'pino-pretty' in '/root/project/gwdc/x402-market/node_modules/pino/lib'
+
+Import trace for requested module:
+./node_modules/pino/lib/tools.js
+./node_modules/pino/pino.js
+./node_modules/@walletconnect/logger/dist/index.es.js
+./node_modules/@walletconnect/universal-provider/dist/index.es.js
+./node_modules/@walletconnect/ethereum-provider/dist/index.es.js
+./node_modules/@wagmi/connectors/dist/esm/walletConnect.js
+./node_modules/@wagmi/connectors/dist/esm/exports/index.js
+./node_modules/wagmi/dist/esm/exports/connectors.js
+./node_modules/@rainbow-me/rainbowkit/dist/index.js
+./src/components/Web3Provider.tsx
+ GET /premium-data 404 in 5765ms
