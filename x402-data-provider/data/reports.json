@@ -1,0 +1,16 @@
+[
+    {
+        "id": "btc-2026-q1",
+        "title": "Bitcoin Q1 2026 Analysis",
+        "description": "Deep dive into BTC fundamentals and price outlook",
+        "price": 2.0,
+        "content": "# Bitcoin Q1 2026 Analysis\n\n## Executive Summary\nBitcoin shows strong bullish momentum entering Q1 2026 with institutional adoption accelerating.\n\n## Key Metrics\n- Current Price: $87,500\n- 30-day Average Volume: $45B\n- Market Dominance: 52.3%\n\n## Technical Analysis\nThe daily chart shows a clear ascending triangle pattern with support at $82k and resistance at $88k. A breakout above $88k could trigger a move to $95k.\n\n## On-Chain Metrics\n- Active Addresses: 1.2M (↑15% MoM)\n- Exchange Outflows: 45k BTC (bullish)\n- Long-term Holder Supply: 68% (ATH)\n\n## Outlook\nTarget: $95k-$105k by end of Q1 2026\nSupport: $75k\nRisk: Regulatory uncertainty in US markets\n\n*Last Updated: Feb 7, 2026*"
+    },
+    {
+        "id": "eth-defi-trends",
+        "title": "Ethereum DeFi Trends 2026",
+        "description": "Analysis of emerging DeFi protocols and ETH price impact",
+        "price": 1.5,
+        "content": "# Ethereum DeFi Trends 2026\n\n## Overview\nEthereum's DeFi ecosystem continues to evolve with Layer 2 solutions driving adoption.\n\n## Key Developments\n1. **Layer 2 Dominance**: 70% of DeFi volume now on L2s\n2. **Real-World Assets**: $15B in tokenized assets\n3. **AI Integration**: Smart contract automation via AI agents\n\n## ETH Price Outlook\nCurrent: $4,200\nTarget: $5,500-$6,000\n\n## Investment Thesis\n- Deflationary supply dynamics (EIP-1559)\n- Growing institutional custody solutions\n- ETF approval momentum\n\n*Last Updated: Feb 7, 2026*"
+    }
+]

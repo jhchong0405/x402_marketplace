@@ -1,0 +1,9 @@
+Starting Benchmark: 100 transactions (Sequential)...
+Tx 1/100: ✅ 16633 ms
+Tx 2/100: ✅ 12832 ms
+Tx 3/100: ✅ 12153 ms
+Tx 4/100: ✅ 19734 ms
+Tx 5/100: ✅ 11761 ms
+Tx 6/100: ✅ 15608 ms
+Tx 7/100: ✅ 13065 ms
+Tx 8/100: 

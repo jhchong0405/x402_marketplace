@@ -1,0 +1,23 @@
+{
+  "name": "conflux-x402-examples",
+  "version": "1.0.0",
+  "description": "Examples for Conflux x402 Skill",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "node client.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "@x402/core": "^2.2.0",
+    "@x402/evm": "^2.2.0",
+    "@x402/express": "^2.2.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "js-conflux-sdk": "^2.5.1",
+    "solc": "^0.8.33"
+  }
+}
