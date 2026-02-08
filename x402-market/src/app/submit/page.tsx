@@ -47,7 +47,7 @@ export default function SubmitServicePage() {
             content: activeTab === 'HOSTED' ? formData.get('content') : null,
 
             // PROXY specific
-            endpointUrl: activeTab === 'PROXY' ? formData.get('endpointUrl') : `https://gateway.x402.market/${Date.now()}`,
+            endpointUrl: activeTab === 'PROXY' ? formData.get('endpointUrl') : `${process.env.NEXT_PUBLIC_MARKET_URL}/api/gateway/${Date.now()}`,
 
             // Provider info
             providerWalletAddress: address,
@@ -116,8 +116,8 @@ export default function SubmitServicePage() {
                     <button
                         onClick={() => setActiveTab('HOSTED')}
                         className={`flex-1 py-3 px-6 rounded-lg font-medium transition ${activeTab === 'HOSTED'
-                                ? 'bg-purple-600 text-white'
-                                : 'bg-white/5 text-gray-400 hover:bg-white/10'
+                            ? 'bg-purple-600 text-white'
+                            : 'bg-white/5 text-gray-400 hover:bg-white/10'
                             }`}
                     >
                         <Upload className="inline h-5 w-5 mr-2" />
@@ -126,8 +126,8 @@ export default function SubmitServicePage() {
                     <button
                         onClick={() => setActiveTab('PROXY')}
                         className={`flex-1 py-3 px-6 rounded-lg font-medium transition ${activeTab === 'PROXY'
-                                ? 'bg-purple-600 text-white'
-                                : 'bg-white/5 text-gray-400 hover:bg-white/10'
+                            ? 'bg-purple-600 text-white'
+                            : 'bg-white/5 text-gray-400 hover:bg-white/10'
                             }`}
                     >
                         <LinkIcon className="inline h-5 w-5 mr-2" />

@@ -24,10 +24,15 @@ export async function GET(request: NextRequest) {
     }
 
     if (search) {
-        where.OR = [
-            { name: { contains: search } },
-            { description: { contains: search } },
-        ];
+        const terms = search.trim().split(/\s+/);
+        if (terms.length > 0) {
+            where.AND = terms.map((term) => ({
+                OR: [
+                    { name: { contains: term } },
+                    { description: { contains: term } },
+                ],
+            }));
+        }
     }
 
     const services = await prisma.service.findMany({
