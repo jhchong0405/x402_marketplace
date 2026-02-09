@@ -1,0 +1,1177 @@
+{
+  "2025-10-27": {
+    "probability_up": 0.7499,
+    "probability_down": 0.2501,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.7499,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-10-28": {
+    "probability_up": 0.7499,
+    "probability_down": 0.2501,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.7499,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-10-29": {
+    "probability_up": 0.6122,
+    "probability_down": 0.3878,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.6122,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-10-30": {
+    "probability_up": 0.4663,
+    "probability_down": 0.5337,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.4663,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-10-31": {
+    "probability_up": 0.2868,
+    "probability_down": 0.7132,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.2868,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-11-03": {
+    "probability_up": 0.6936,
+    "probability_down": 0.3064,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.6936,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-11-04": {
+    "probability_up": 0.6936,
+    "probability_down": 0.3064,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.6936,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-11-05": {
+    "probability_up": 0.8875,
+    "probability_down": 0.1125,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.8875,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-11-06": {
+    "probability_up": 0.9221,
+    "probability_down": 0.0779,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.9221,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-09": {
+    "probability_up": 0.7618,
+    "probability_down": 0.2382,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.7618,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-10": {
+    "probability_up": 0.3863,
+    "probability_down": 0.6137,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.3863,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-12": {
+    "probability_up": 0.1733,
+    "probability_down": 0.8267,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.1733,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-15": {
+    "probability_up": 0.4856,
+    "probability_down": 0.5144,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.4856,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-16": {
+    "probability_up": 0.4856,
+    "probability_down": 0.5144,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.4856,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-17": {
+    "probability_up": 0.8102,
+    "probability_down": 0.1898,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.8102,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-19": {
+    "probability_up": 0.6168,
+    "probability_down": 0.3832,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.6168,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-23": {
+    "probability_up": 0.8308,
+    "probability_down": 0.1692,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.8308,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-24": {
+    "probability_up": 0.6633,
+    "probability_down": 0.3367,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.6633,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-26": {
+    "probability_up": 0.5489,
+    "probability_down": 0.4511,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.5489,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-29": {
+    "probability_up": 0.732,
+    "probability_down": 0.268,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.732,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-30": {
+    "probability_up": 0.732,
+    "probability_down": 0.268,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.732,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2025-12-31": {
+    "probability_up": 0.3071,
+    "probability_down": 0.6929,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.3071,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-02": {
+    "probability_up": 0.2985,
+    "probability_down": 0.7015,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.2985,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-05": {
+    "probability_up": 0.8491,
+    "probability_down": 0.1509,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.8491,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-06": {
+    "probability_up": 0.8493,
+    "probability_down": 0.1507,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.8493,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-07": {
+    "probability_up": 0.0975,
+    "probability_down": 0.9025,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.0975,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-08": {
+    "probability_up": 0.0655,
+    "probability_down": 0.9345,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.0655,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-09": {
+    "probability_up": 0.2215,
+    "probability_down": 0.7785,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.2215,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-12": {
+    "probability_up": 0.8735,
+    "probability_down": 0.1265,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.8735,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-13": {
+    "probability_up": 0.8735,
+    "probability_down": 0.1265,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.8735,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-14": {
+    "probability_up": 0.7521,
+    "probability_down": 0.2479,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.7521,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-15": {
+    "probability_up": 0.6827,
+    "probability_down": 0.3173,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.6827,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-16": {
+    "probability_up": 0.8574,
+    "probability_down": 0.1426,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.8574,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-20": {
+    "probability_up": 0.8745,
+    "probability_down": 0.1255,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.8745,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-21": {
+    "probability_up": 0.8745,
+    "probability_down": 0.1255,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.8745,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-22": {
+    "probability_up": 0.7752,
+    "probability_down": 0.2248,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.7752,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-23": {
+    "probability_up": 0.2041,
+    "probability_down": 0.7959,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.2041,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-26": {
+    "probability_up": 0.5673,
+    "probability_down": 0.4327,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.5673,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-27": {
+    "probability_up": 0.5673,
+    "probability_down": 0.4327,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.5673,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-28": {
+    "probability_up": 0.6647,
+    "probability_down": 0.3353,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.6647,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-29": {
+    "probability_up": 0.211,
+    "probability_down": 0.789,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.211,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-01-30": {
+    "probability_up": 0.84,
+    "probability_down": 0.16,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.84,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-02-02": {
+    "probability_up": 0.6652,
+    "probability_down": 0.3348,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.6652,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-02-03": {
+    "probability_up": 0.6652,
+    "probability_down": 0.3348,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.6652,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-02-04": {
+    "probability_up": 0.9735,
+    "probability_down": 0.0265,
+    "prediction": "Up",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.9735,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-02-05": {
+    "probability_up": 0.1467,
+    "probability_down": 0.8533,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.1467,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  },
+  "2026-02-06": {
+    "probability_up": 0.3713,
+    "probability_down": 0.6287,
+    "prediction": "Down",
+    "method": "regression",
+    "details": {
+      "regression_prob_up": 0.3713,
+      "proxy_ids": [
+        "us_10y_yield",
+        "us_2y_yield",
+        "dxy_index",
+        "sp500",
+        "vix",
+        "oil_wti",
+        "silver",
+        "tips_etf",
+        "gld_volume",
+        "copper"
+      ],
+      "n_proxies": 10,
+      "model_accuracy": null,
+      "n_features": null,
+      "n_samples": null
+    }
+  }
+}

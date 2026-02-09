@@ -1,0 +1,710 @@
+{
+  "meta": {
+    "generated_at": "2026-02-08T12:50:43Z",
+    "current_date": "2026-02-08 18:49:19",
+    "target_date": "2026-02-10"
+  },
+  "price_summary": {
+    "latest_date": "2026-02-06",
+    "latest_close": 4979.8,
+    "latest_open": 4800.0,
+    "latest_high": 4995.6,
+    "latest_low": 4670.0,
+    "period_high": 5318.4,
+    "period_low": 2836.8,
+    "ma_20": 4838.62,
+    "ma_50": 4525.42,
+    "ma_200": 3809.16,
+    "annualized_volatility": 0.2533,
+    "pct_change_1w": 7.73,
+    "pct_change_1m": 11.92,
+    "pct_change_3m": 24.49,
+    "pct_change_6m": 51.21,
+    "data_points": 251
+  },
+  "step1_factors": {
+    "analysis_date": "2026-02-08",
+    "factors": [
+      {
+        "name": "黄金价格波动性增加",
+        "direction": "negative",
+        "impact_level": "high",
+        "weight": 9,
+        "impact_score": 8,
+        "reasoning": "高波动性通常会导致投资者谨慎，从而减少对黄金的需求。",
+        "category": "市场情绪",
+        "description": "黄金价格的波动性持续增加，导致保证金要求提高。",
+        "source_type": "news",
+        "source_ref": "[4][16]"
+      },
+      {
+        "name": "白银价格下跌",
+        "direction": "negative",
+        "impact_level": "medium",
+        "weight": 7,
+        "impact_score": 6,
+        "reasoning": "白银和黄金通常具有一定的关联性，白银价格下跌可能会影响黄金的价格走势。",
+        "category": "相关资产表现",
+        "description": "白银价格的下跌限制了黄金价格的上涨。",
+        "source_type": "news",
+        "source_ref": "[3][5]"
+      },
+      {
+        "name": "全球不确定性增加",
+        "direction": "positive",
+        "impact_level": "high",
+        "weight": 8,
+        "impact_score": 9,
+        "reasoning": "全球不确定性增加通常会促使投资者寻求避险资产，如黄金。",
+        "category": "宏观经济",
+        "description": "分析师上调了黄金预测，因为全球不确定性增加。",
+        "source_type": "news",
+        "source_ref": "[11]"
+      },
+      {
+        "name": "金价短期压力",
+        "direction": "negative",
+        "impact_level": "medium",
+        "weight": 6,
+        "impact_score": 5,
+        "reasoning": "短期内的压力可能导致投资者观望，从而抑制黄金价格上涨。",
+        "category": "技术面",
+        "description": "预计短期内黄金价格仍将面临压力。",
+        "source_type": "news",
+        "source_ref": "[12]"
+      },
+      {
+        "name": "黄金价格反弹",
+        "direction": "positive",
+        "impact_level": "medium",
+        "weight": 7,
+        "impact_score": 7,
+        "reasoning": "反弹可能表明市场情绪有所改善，有助于支撑黄金价格。",
+        "category": "技术面",
+        "description": "黄金价格在大幅下跌后出现反弹。",
+        "source_type": "news",
+        "source_ref": "[15]"
+      },
+      {
+        "name": "黄金长期看涨",
+        "direction": "positive",
+        "impact_level": "low",
+        "weight": 5,
+        "impact_score": 4,
+        "reasoning": "长期看涨预期可能吸引一些长期投资者进入市场。",
+        "category": "长期趋势",
+        "description": "有分析认为黄金价格未来可能达到7000美元。",
+        "source_type": "news",
+        "source_ref": "[14]"
+      },
+      {
+        "name": "黄金价格短期下跌",
+        "direction": "negative",
+        "impact_level": "high",
+        "weight": 9,
+        "impact_score": 8,
+        "reasoning": "短期价格下跌可能引发市场恐慌，进一步推动价格下行。",
+        "category": "价格数据",
+        "description": "黄金价格在最近一周内下跌了3.9%。",
+        "source_type": "price_data",
+        "source_ref": "价格数据"
+      },
+      {
+        "name": "黄金价格长期上涨",
+        "direction": "positive",
+        "impact_level": "high",
+        "weight": 8,
+        "impact_score": 9,
+        "reasoning": "长期上涨趋势可能增强投资者的信心，继续支持黄金价格。",
+        "category": "价格数据",
+        "description": "黄金价格在过去六个月内上涨了51.21%。",
+        "source_type": "price_data",
+        "source_ref": "价格数据"
+      },
+      {
+        "name": "黄金价格均线支撑",
+        "direction": "positive",
+        "impact_level": "medium",
+        "weight": 7,
+        "impact_score": 6,
+        "reasoning": "均线支撑可能提供一定的技术支撑，防止价格进一步下跌。",
+        "category": "技术面",
+        "description": "黄金价格目前位于20日均线之上。",
+        "source_type": "price_data",
+        "source_ref": "价格数据"
+      },
+      {
+        "name": "市场担忧经济前景",
+        "direction": "positive",
+        "impact_level": "high",
+        "weight": 9,
+        "impact_score": 8,
+        "reasoning": "经济前景的担忧通常会促使投资者寻求避险资产，如黄金。",
+        "category": "宏观经济",
+        "description": "市场普遍担忧全球经济前景。",
+        "source_type": "general_knowledge",
+        "source_ref": "市场常识"
+      },
+      {
+        "name": "实际利率与金价负相关",
+        "direction": "positive",
+        "impact_level": "medium",
+        "weight": 7,
+        "impact_score": 6,
+        "reasoning": "如果实际利率下降，黄金价格通常会上涨。",
+        "category": "货币政策",
+        "description": "实际利率与黄金价格呈负相关关系。",
+        "source_type": "general_knowledge",
+        "source_ref": "市场常识"
+      }
+    ],
+    "total_factors_count": 11
+  },
+  "step2_deep_analysis": {
+    "analysis_date": "2026-02-08",
+    "dominant_factors": [
+      "黄金价格波动性增加",
+      "全球不确定性增加",
+      "市场担忧经济前景"
+    ],
+    "interactions": [
+      {
+        "factor_a": "黄金价格波动性增加",
+        "factor_b": "全球不确定性增加",
+        "relationship": "虽然高波动性通常会导致投资者谨慎，但全球不确定性的增加可能会促使更多投资者寻求避险资产如黄金。这种相互作用可能导致短期内金价的波动加剧。",
+        "net_effect": "mixed"
+      },
+      {
+        "factor_a": "全球不确定性增加",
+        "factor_b": "市场担忧经济前景",
+        "relationship": "这两个因素都倾向于推动投资者寻求避险资产，从而对黄金价格产生积极影响。全球经济前景的担忧和不确定性增加共同支持了黄金的需求。",
+        "net_effect": "positive"
+      },
+      {
+        "factor_a": "黄金价格短期下跌",
+        "factor_b": "黄金价格长期上涨",
+        "relationship": "尽管短期内黄金价格出现下跌，但长期上涨趋势可能增强投资者的信心，继续支持黄金价格。这种相互作用可能导致短期内的调整，但长期来看仍具有支撑力。",
+        "net_effect": "mixed"
+      }
+    ],
+    "short_term_bias": "neutral",
+    "short_term_confidence": "medium",
+    "mid_term_bias": "bullish",
+    "mid_term_confidence": "high",
+    "forecast_target_date": "2026-02-10",
+    "forecast_price": 4950,
+    "forecast_low": 4800,
+    "forecast_high": 5000,
+    "forecast_reasoning": "短期内，黄金价格波动性增加和短期压力可能导致价格在一定范围内波动。然而，全球不确定性增加和市场对经济前景的担忧将继续支持黄金作为避险资产的需求。结合历史价格数据和技术面分析，预计短期内金价将保持中性偏震荡，中期则有望继续上涨。",
+    "risk_notes": [
+      "短期内高波动性可能导致价格大幅波动，投资者需谨慎操作。",
+      "全球经济形势的变化可能对黄金价格产生重大影响，需密切关注相关动态。"
+    ]
+  },
+  "step3_quant_score": {
+    "score": 0.156098,
+    "view": "neutral",
+    "thresholds": {
+      "bullish": 0.3,
+      "bearish": -0.3
+    },
+    "level_weight_mapping": {
+      "high": 5.0,
+      "medium": 3.0,
+      "low": 1.0
+    },
+    "factor_contributions": [
+      {
+        "name": "黄金价格波动性增加",
+        "direction": "negative",
+        "impact_level": "high",
+        "weight": 9,
+        "normalized_weight": 0.109756,
+        "level_weight": 5.0,
+        "contribution": -0.54878
+      },
+      {
+        "name": "白银价格下跌",
+        "direction": "negative",
+        "impact_level": "medium",
+        "weight": 7,
+        "normalized_weight": 0.085366,
+        "level_weight": 3.0,
+        "contribution": -0.256098
+      },
+      {
+        "name": "全球不确定性增加",
+        "direction": "positive",
+        "impact_level": "high",
+        "weight": 8,
+        "normalized_weight": 0.097561,
+        "level_weight": 5.0,
+        "contribution": 0.487805
+      },
+      {
+        "name": "金价短期压力",
+        "direction": "negative",
+        "impact_level": "medium",
+        "weight": 6,
+        "normalized_weight": 0.073171,
+        "level_weight": 3.0,
+        "contribution": -0.219512
+      },
+      {
+        "name": "黄金价格反弹",
+        "direction": "positive",
+        "impact_level": "medium",
+        "weight": 7,
+        "normalized_weight": 0.085366,
+        "level_weight": 3.0,
+        "contribution": 0.256098
+      },
+      {
+        "name": "黄金长期看涨",
+        "direction": "positive",
+        "impact_level": "low",
+        "weight": 5,
+        "normalized_weight": 0.060976,
+        "level_weight": 1.0,
+        "contribution": 0.060976
+      },
+      {
+        "name": "黄金价格短期下跌",
+        "direction": "negative",
+        "impact_level": "high",
+        "weight": 9,
+        "normalized_weight": 0.109756,
+        "level_weight": 5.0,
+        "contribution": -0.54878
+      },
+      {
+        "name": "黄金价格长期上涨",
+        "direction": "positive",
+        "impact_level": "high",
+        "weight": 8,
+        "normalized_weight": 0.097561,
+        "level_weight": 5.0,
+        "contribution": 0.487805
+      },
+      {
+        "name": "黄金价格均线支撑",
+        "direction": "positive",
+        "impact_level": "medium",
+        "weight": 7,
+        "normalized_weight": 0.085366,
+        "level_weight": 3.0,
+        "contribution": 0.256098
+      },
+      {
+        "name": "市场担忧经济前景",
+        "direction": "positive",
+        "impact_level": "high",
+        "weight": 9,
+        "normalized_weight": 0.109756,
+        "level_weight": 5.0,
+        "contribution": 0.54878
+      },
+      {
+        "name": "实际利率与金价负相关",
+        "direction": "positive",
+        "impact_level": "medium",
+        "weight": 7,
+        "normalized_weight": 0.085366,
+        "level_weight": 3.0,
+        "contribution": 0.256098
+      }
+    ],
+    "ai_level_weight_mapping": {
+      "level_weight_mapping": {
+        "high": 5.0,
+        "medium": 3.0,
+        "low": 1.0
+      },
+      "notes": "分值简单且易于解释，符合要求。"
+    }
+  },
+  "step2_news": {
+    "news_count": 30,
+    "news_items": [
+      {
+        "title": "Why is gold price down by 3.9% and will it fall below $4,768 or rise again? Gold drop, analysts insights a",
+        "source": "The Economic Times",
+        "published_date": "Thu, 05 Feb 2026 22:44:58 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQd2VJLXlkU3NVdTJnNFE2c0xRNTBoQjVjMHdFTm4wZzd5ek5SOUtnTnJwM2NmTFZoZ3E5Y0VCc0Y4ME91S0RVYVY4ZzhpRVg2VDFaeFpFY3ZJNGlncDBRSU1GWDZiZGl0VzlzT0l2NFpzRkZOcEVoQXA1RDdVQjhkWEhuUXlUS2xGc2RScG05MWkyZXNJN1UzSGhhUTkwb2FackpaX3gxem0yMVJwOHE0S3NPVm01MWhqZExxb0JPbHNySEdEZEwxOXF6TTZNUVBZQlZIRVVtY1Z5YUZDMmdoTExUTWRjY2YxdXRyM0lhVTVKWVo3MWJod3lkSDJOTHVEenQzblNjV2lRS1JVaWdta2xhb0pPQlhMaUN1ODR6aTRPdmRUM0RsRnBJMUN4RHdsamw0ZVdXaGdnNzMzTlpPOHNZeWxIWktDVUhBMnVIcWhORk9QdG9ybDQ5TUNoa1ZWMGZCaFJpMUlEcE1fZG1yV3draWfSAfoCQVVfeXFMUGpNcW15NVdnSWVaQzlRNHNnSndfcnBaWFZWRVh4QzF6dVZiYWwtMWNkdDVDM0stN2VmbHVZa29mdTg0dDVuLV8zd2NNS2hIb0c0Qkp6d04tUkhyaUhfajMzRjh1dnZGaTFQQk51bWlwRHpEa05iUnVzWVdhVE9pM245Z2dTb3lHbENIUTNSRWRhSk9VWlFhTWo0amVFTFduRWhNM0h3dHVVZHQ4eTVBanMwUmdxcGJrM1UzZEMyN0ZMR3B0QVI3NTktYTN0Yk1LSUlTdGRmM2lKel84VUwteWtZR25KdnBqTGxQd0p6bk5wUkN6SURQaWdxcTBNYXRRdVVqWWs1THhTX05USWRDYmJDbkNZVUhyRzd5bTdBQzkyZ2FXNmJIYWNOWWhEck9xZmhxeWhEdGp6SjBYMEZQYXlrTWRXX09ldmNTM0xScG9UQ0ZlQXN2QkdLLUptVzlWVi1Xc0d2d2djRlBaWEg5cDNvN3dJYjlsNmRR?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi9AJBVV95cUxQd2VJLXlkU3NVdTJnNFE2c0xRNTBoQjVjMHdFTm4wZzd5ek5SOUtnTnJwM2NmTFZoZ3E5Y0VCc0Y4ME91S0RVYVY4ZzhpRVg2VDFaeFpFY3ZJNGlncDBRSU1GWDZiZGl0VzlzT0l2NFpzRkZOcEVoQXA1RDdVQjhkWEhuUXlUS2xGc2RScG05MWkyZXNJN1UzSGhhUTkwb2FackpaX3gxem0yMVJwOHE0S3NPVm01MWhqZExxb0JPbHNySEdEZEwxOXF6TTZNUVBZQlZIRVVtY1Z5YUZDMmdoTExUTWRjY2YxdXRyM0lhVTVKWVo3MWJod3lkSDJOTHVEenQzblNjV2lRS1JVaWdta2xhb0pPQlhMaUN1ODR6aTRPdmRUM0RsRnBJMUN4RHdsamw0ZVdXaGdnNzMzTlpPOHNZeWxIWktDVUhBMnVIcWhORk9QdG9ybDQ5TUNoa1ZWMGZCaFJpMUlEcE1fZG1yV3draWfSAfoCQVVfeXFMUGpNcW15NVdnSWVaQzlRNHNnSndfcnBaWFZWRVh4QzF6dVZiYWwtMWNkdDVDM0stN2VmbHVZa29mdTg0dDVuLV8zd2NNS2hIb0c0Qkp6d04tUkhyaUhfajMzRjh1dnZGaTFQQk51bWlwRHpEa05iUnVzWVdhVE9pM245Z2dTb3lHbENIUTNSRWRhSk9VWlFhTWo0amVFTFduRWhNM0h3dHVVZHQ4eTVBanMwUmdxcGJrM1UzZEMyN0ZMR3B0QVI3NTktYTN0Yk1LSUlTdGRmM2lKel84VUwteWtZR25KdnBqTGxQd0p6bk5wUkN6SURQaWdxcTBNYXRRdVVqWWs1THhTX05USWRDYmJDbkNZVUhyRzd5bTdBQzkyZ2FXNmJIYWNOWWhEck9xZmhxeWhEdGp6SjBYMEZQYXlrTWRXX09ldmNTM0xScG9UQ0ZlQXN2QkdLLUptVzlWVi1Xc0d2d2djRlBaWEg5cDNvN3dJYjlsNmRR?oc=5\" target=\"_blank\">Why is gold price down by 3.9% and will it fall below $4,768 or rise again? Gold drop, analysts insights a</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Economic Times</font>"
+      },
+      {
+        "title": "Current price of gold as of February 6, 2026",
+        "source": "Fortune",
+        "published_date": "Fri, 06 Feb 2026 13:59:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qS1N2dWRpOHNpdy1PWGR5bUphSzRianBXTnIxVE5xZExNUFpRMEFiZlhEMTI4RzhtbG00WTN5ZmdwcHhOU19TT0pfVFJkeXRnVU05VGJ5V3FHWVlIOUY0OXNxRlJQV2E0cWFsOER3?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE5qS1N2dWRpOHNpdy1PWGR5bUphSzRianBXTnIxVE5xZExNUFpRMEFiZlhEMTI4RzhtbG00WTN5ZmdwcHhOU19TT0pfVFJkeXRnVU05VGJ5V3FHWVlIOUY0OXNxRlJQV2E0cWFsOER3?oc=5\" target=\"_blank\">Current price of gold as of February 6, 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>"
+      },
+      {
+        "title": "Gold price up a bit, but gains limited by silver sell off",
+        "source": "KITCO",
+        "published_date": "Fri, 06 Feb 2026 13:07:30 GMT",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVmVmTWdFR2RFV0RWcVdmdkVQSDJZYlptemtLT3l4ck56Zmtaak9pd09YOW5KejhjWFRXdTdBdF9BSS1LREJwVFpDYTYwS1VJSTlWUUNfSXNFN3ZVSWI1N2lydVpGeWx2ZHNuS2hhd0FMTkVSXzFmdmxfQW1xY3hUMzRlV1ctMVd3TG9DbXQwVQ?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQVmVmTWdFR2RFV0RWcVdmdkVQSDJZYlptemtLT3l4ck56Zmtaak9pd09YOW5KejhjWFRXdTdBdF9BSS1LREJwVFpDYTYwS1VJSTlWUUNfSXNFN3ZVSWI1N2lydVpGeWx2ZHNuS2hhd0FMTkVSXzFmdmxfQW1xY3hUMzRlV1ctMVd3TG9DbXQwVQ?oc=5\" target=\"_blank\">Gold price up a bit, but gains limited by silver sell off</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KITCO</font>"
+      },
+      {
+        "title": "Gold price today, Friday, February 6: Gold volatility continues, prompting another margin increase",
+        "source": "Yahoo Finance",
+        "published_date": "Fri, 06 Feb 2026 12:29:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOVNSLWxWNDBwbFpSVk1FZWhpSzVMSUFsQllVWkxSdXktRmpfVV9mdjNzM3RxYWRSNnZZT3NVdGFldUNKZ2NvaVBmUlJ1LXRwcU1ReEJpY3pnTkdDWXlzWVpXRzh5NWwySHE3Z2hoOGJaOEJNN1V5cmsxVHBFUjY5eTlnNHI2VXppblhjUjh2R0dxYmoxV2xUWUhncno3ZDZfcEdXOFQ3dXNYSDU3YVRLd202S21KVjktUXVWcE84T2VuV0kyQ2JBZ0FpTjNCYjZLdG8yWGlVenJTU0l6UUlreGJkUVB0Ui1JcllZa0JjV3NYczVHVEhfMXVtenhYakU?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOVNSLWxWNDBwbFpSVk1FZWhpSzVMSUFsQllVWkxSdXktRmpfVV9mdjNzM3RxYWRSNnZZT3NVdGFldUNKZ2NvaVBmUlJ1LXRwcU1ReEJpY3pnTkdDWXlzWVpXRzh5NWwySHE3Z2hoOGJaOEJNN1V5cmsxVHBFUjY5eTlnNHI2VXppblhjUjh2R0dxYmoxV2xUWUhncno3ZDZfcEdXOFQ3dXNYSDU3YVRLd202S21KVjktUXVWcE84T2VuV0kyQ2JBZ0FpTjNCYjZLdG8yWGlVenJTU0l6UUlreGJkUVB0Ui1JcllZa0JjV3NYczVHVEhfMXVtenhYakU?oc=5\" target=\"_blank\">Gold price today, Friday, February 6: Gold volatility continues, prompting another margin increase</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>"
+      },
+      {
+        "title": "Silver Lease Rates Jump as Gold Cuts Price Crash in Half",
+        "source": "BullionVault",
+        "published_date": "Fri, 06 Feb 2026 15:48:28 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNmhxNktOVUxDaU1oWVBfb1BMcUY3clM0ZkZTZlB6ZU9wRjRGSVdmandwQldTM0ZHelN3bVhYeDZKRkcwWFJEWi14VmVtQkU0d3ZfTXp1VFU4emJpbDRYRFNqWTBQMnc0LUZfT09BTV83UkpIaXBUcV8wZmNoTmpJTEZOMlRadGxOdlMwQnhpQ3ZacDhGUlpwVXdn?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNNmhxNktOVUxDaU1oWVBfb1BMcUY3clM0ZkZTZlB6ZU9wRjRGSVdmandwQldTM0ZHelN3bVhYeDZKRkcwWFJEWi14VmVtQkU0d3ZfTXp1VFU4emJpbDRYRFNqWTBQMnc0LUZfT09BTV83UkpIaXBUcV8wZmNoTmpJTEZOMlRadGxOdlMwQnhpQ3ZacDhGUlpwVXdn?oc=5\" target=\"_blank\">Silver Lease Rates Jump as Gold Cuts Price Crash in Half</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BullionVault</font>"
+      },
+      {
+        "title": "In Pakistan, gold price rollercoaster pushes buyers to silver",
+        "source": "Al Jazeera",
+        "published_date": "Thu, 05 Feb 2026 10:54:54 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSmtxM2IwYnh0YVBEQ01KZzJ5QVYwY2trYV8yamd4aEJ1d3NfOUJYZXh0enJfbFd5b0ZqN0NIZjc3T0tkbTZCY1VCWGh5SlNZSnBEYVZweWtFdmlnaVhjTGQ2MFBZMzNPWF9tSzlLaExSWmFsTEktVk9uaHdQVXNtRC0zNTBfQTNZRkJDOVBsRU1xTERYOGh5SzRHNk1VMEUwR2dHLXN30gGrAUFVX3lxTE9Ha2d0WURJYW50VFZ6cEFYeDk3U2VoX1pVU1N1VlRqYVlUVlpDNnk1bExrbEVGRGxrZ1FTUkV5d2NwU2VvMEIzbWptd21VMDFCM1NiV29Vc0ptamdVbV9kaFFweUIyMGJtdkxFdDQxT1Z5U09VN0dxVXpGZk9MOEZQQjVfYXZ0R0lUb3BDRG1FWFN6MFN6ekVpalJwa1MzaHJ1bVg1TldfUWlRWQ?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNSmtxM2IwYnh0YVBEQ01KZzJ5QVYwY2trYV8yamd4aEJ1d3NfOUJYZXh0enJfbFd5b0ZqN0NIZjc3T0tkbTZCY1VCWGh5SlNZSnBEYVZweWtFdmlnaVhjTGQ2MFBZMzNPWF9tSzlLaExSWmFsTEktVk9uaHdQVXNtRC0zNTBfQTNZRkJDOVBsRU1xTERYOGh5SzRHNk1VMEUwR2dHLXN30gGrAUFVX3lxTE9Ha2d0WURJYW50VFZ6cEFYeDk3U2VoX1pVU1N1VlRqYVlUVlpDNnk1bExrbEVGRGxrZ1FTUkV5d2NwU2VvMEIzbWptd21VMDFCM1NiV29Vc0ptamdVbV9kaFFweUIyMGJtdkxFdDQxT1Z5U09VN0dxVXpGZk9MOEZQQjVfYXZ0R0lUb3BDRG1FWFN6MFN6ekVpalJwa1MzaHJ1bVg1TldfUWlRWQ?oc=5\" target=\"_blank\">In Pakistan, gold price rollercoaster pushes buyers to silver</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Al Jazeera</font>"
+      },
+      {
+        "title": "Current price of gold as of February 5, 2026",
+        "source": "Fortune",
+        "published_date": "Thu, 05 Feb 2026 14:27:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IeldULVFQZ2F1NnVPYXp4ZFdwTXNjdFp6NFJtYmNJcW9ZbGQ1djV3SHBULUZOVHNyYVFQbWhpSS10QzRYcDMwVTExSlg5UnVyTlBhRW9id1E1X2ZhUU80aC1mOTIydDZMUDBQSnRB?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9IeldULVFQZ2F1NnVPYXp4ZFdwTXNjdFp6NFJtYmNJcW9ZbGQ1djV3SHBULUZOVHNyYVFQbWhpSS10QzRYcDMwVTExSlg5UnVyTlBhRW9id1E1X2ZhUU80aC1mOTIydDZMUDBQSnRB?oc=5\" target=\"_blank\">Current price of gold as of February 5, 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>"
+      },
+      {
+        "title": "Gold price today, Thursday, February 5: Gold opens below $4,900 per ounce",
+        "source": "Yahoo Finance",
+        "published_date": "Thu, 05 Feb 2026 12:17:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPM2tscUI2S0JwUDdrMjVPeUJBTHpYbmkxR0tmY1ZUcEE5TFRjN2lZVWVXbzJUbUNnNGpBLUFiOG90LXJuUUw1a3VpQUpyVDExRUc3dkt0M0Y4VTdxSkZBOTlvMmE1Nzh4LXAtbFI2LXJva0hma3pkeW9KbW44WFVEdUczcTVDVFJJZjJPNGRBa1hjRjRpT2t1VDZDU3lPbFJNWXFwTGpZSlNLaEYyc181a0J1VUhOWUMta24tcjd5WkMzQTF0ZWJmUXlseXZoT3N4M0l4OWFpdHJILXV3?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPM2tscUI2S0JwUDdrMjVPeUJBTHpYbmkxR0tmY1ZUcEE5TFRjN2lZVWVXbzJUbUNnNGpBLUFiOG90LXJuUUw1a3VpQUpyVDExRUc3dkt0M0Y4VTdxSkZBOTlvMmE1Nzh4LXAtbFI2LXJva0hma3pkeW9KbW44WFVEdUczcTVDVFJJZjJPNGRBa1hjRjRpT2t1VDZDU3lPbFJNWXFwTGpZSlNLaEYyc181a0J1VUhOWUMta24tcjd5WkMzQTF0ZWJmUXlseXZoT3N4M0l4OWFpdHJILXV3?oc=5\" target=\"_blank\">Gold price today, Thursday, February 5: Gold opens below $4,900 per ounce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>"
+      },
+      {
+        "title": "Precious Metal Price Forecasts 2026: Gold, Silver Platinum and Palladium",
+        "source": "BullionVault",
+        "published_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc0N1SjRWTnE4Z0FnZDBmZmFtYjVCV2ZYcW5Dd3hYQkQ0b19sTmJIVVVPbGxJbFNFM3ZEdUxjTEJhQldjZV9mb3ZWZGtZRVJGXzRSSVRNZjQ3NU1GU1VBd2h5WXFEMnI4aEJSNERlYktTdThYa3VlY1loMXF4LXYySmNpbWJFUGw5SFdEMml5QmV4SjBu?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQc0N1SjRWTnE4Z0FnZDBmZmFtYjVCV2ZYcW5Dd3hYQkQ0b19sTmJIVVVPbGxJbFNFM3ZEdUxjTEJhQldjZV9mb3ZWZGtZRVJGXzRSSVRNZjQ3NU1GU1VBd2h5WXFEMnI4aEJSNERlYktTdThYa3VlY1loMXF4LXYySmNpbWJFUGw5SFdEMml5QmV4SjBu?oc=5\" target=\"_blank\">Precious Metal Price Forecasts 2026: Gold, Silver Platinum and Palladium</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BullionVault</font>"
+      },
+      {
+        "title": "Gold bulls hold firm after historic metals sell-off — but silver could be in for a bumpier ride",
+        "source": "CNBC",
+        "published_date": "Thu, 05 Feb 2026 07:36:34 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRVlzRlBZVTJwNXdZdXBiN192VFVHb2RBTDc1UEFqdmZRTUhZdzlxZDFoOTkwamZPbm9yUkU3ZUsyYkk0NnhRSGZ2NUtyZ2g2elVLQ3Q3X2w4aVdsMnZRbkZjLU5ISUE3b3RXSTUzN1dSMV90eHQ4dEFaemd5eWQ4UDRXOHEwX2hHSlNsR1pscGk?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNRVlzRlBZVTJwNXdZdXBiN192VFVHb2RBTDc1UEFqdmZRTUhZdzlxZDFoOTkwamZPbm9yUkU3ZUsyYkk0NnhRSGZ2NUtyZ2g2elVLQ3Q3X2w4aVdsMnZRbkZjLU5ISUE3b3RXSTUzN1dSMV90eHQ4dEFaemd5eWQ4UDRXOHEwX2hHSlNsR1pscGk?oc=5\" target=\"_blank\">Gold bulls hold firm after historic metals sell-off — but silver could be in for a bumpier ride</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>"
+      },
+      {
+        "title": "Analysts ramp up gold forecasts as global uncertainties mount",
+        "source": "Reuters",
+        "published_date": "Wed, 04 Feb 2026 12:55:07 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcHZBWGRJRFBnN2NTS094QmdEZC0tM0lWeGVEM0tqbkJBZFB5RTNiY29xRUlfeFVEOGNrTEZzUjVvdnZHaTdScUlTOGI2MWM1QlRwV2E0em0zV1ZPaXQwWWJqSUlpamhFdXFfMzdTRnlnMW5pM2h1WE5MZkFpaHRRMmRVSzFZd2U4ZWtTbDhQRGNpVm14T1JjYkc5eWVIMEpKUHd3Y2xkNzJmSm5oLWZncA?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNcHZBWGRJRFBnN2NTS094QmdEZC0tM0lWeGVEM0tqbkJBZFB5RTNiY29xRUlfeFVEOGNrTEZzUjVvdnZHaTdScUlTOGI2MWM1QlRwV2E0em0zV1ZPaXQwWWJqSUlpamhFdXFfMzdTRnlnMW5pM2h1WE5MZkFpaHRRMmRVSzFZd2U4ZWtTbDhQRGNpVm14T1JjYkc5eWVIMEpKUHd3Y2xkNzJmSm5oLWZncA?oc=5\" target=\"_blank\">Analysts ramp up gold forecasts as global uncertainties mount</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>"
+      },
+      {
+        "title": "Gold forecast: Pressure likely to persist for a while",
+        "source": "FOREX.com",
+        "published_date": "Mon, 02 Feb 2026 16:44:20 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkd5eDBIQjF3YlE4Q1lpdzFsM3h1OWtBUkRJZTBIQ1lSOWNaREk4Wkk1enZNTTctakRxaEJGVHpJNWdEeW5nS3BHVkZYdjJ1NjZyUzFyaUM4QTJycWVVdUV2cVlFdjdUVlAwUmRDV2kwZFlEUUI1SE9KTWhyZVc3cnI5WEppZlQ0elpUTFp5THB6Z0pORGZFV2F5S1jSAagBQVVfeXFMUDgzMkx1ekpkbDNFLW45MTltWXA3dXgwWGFYc09pNnFfLS1PQUd1SjBKWkpxX1dXZTgzYkZiMXZmTXpkS0JHblo2bXNkTXBtbF8yMGU0bmZESFBSZFpXbzRNLVh6ZllZM09CbHlUb2F5c3FOWFpQajRwT214TGE0QlpveXBrOXlsZzlfeHJvY0lUQ09NVzlVV0lpWnpKeW9yaUN2U21aZW4x?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkd5eDBIQjF3YlE4Q1lpdzFsM3h1OWtBUkRJZTBIQ1lSOWNaREk4Wkk1enZNTTctakRxaEJGVHpJNWdEeW5nS3BHVkZYdjJ1NjZyUzFyaUM4QTJycWVVdUV2cVlFdjdUVlAwUmRDV2kwZFlEUUI1SE9KTWhyZVc3cnI5WEppZlQ0elpUTFp5THB6Z0pORGZFV2F5S1jSAagBQVVfeXFMUDgzMkx1ekpkbDNFLW45MTltWXA3dXgwWGFYc09pNnFfLS1PQUd1SjBKWkpxX1dXZTgzYkZiMXZmTXpkS0JHblo2bXNkTXBtbF8yMGU0bmZESFBSZFpXbzRNLVh6ZllZM09CbHlUb2F5c3FOWFpQajRwT214TGE0QlpveXBrOXlsZzlfeHJvY0lUQ09NVzlVV0lpWnpKeW9yaUN2U21aZW4x?oc=5\" target=\"_blank\">Gold forecast: Pressure likely to persist for a while</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOREX.com</font>"
+      },
+      {
+        "title": "U.S. Money Reserve Publishes 2026 Global Gold Forecast Exploring Future Market Performance and the New Economic Paradigm",
+        "source": "Yahoo Finance",
+        "published_date": "Tue, 03 Feb 2026 18:15:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeVQ5V3RrdlQ0bWhqR1ZiRVZGS2E3TU0zLXdscmxTNTl0WmVCdWpfSjJYdllsRVZ6ZmlYUmptUWk2LUM5ZXZ1ZjdkNHVKTUdkT25wQ21PWnZMbmlfcFdmYmNaQUNtNHZ3anNGQlRpZ2ZOejRybXZpZi1NYlR1cGZKWA?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOeVQ5V3RrdlQ0bWhqR1ZiRVZGS2E3TU0zLXdscmxTNTl0WmVCdWpfSjJYdllsRVZ6ZmlYUmptUWk2LUM5ZXZ1ZjdkNHVKTUdkT25wQ21PWnZMbmlfcFdmYmNaQUNtNHZ3anNGQlRpZ2ZOejRybXZpZi1NYlR1cGZKWA?oc=5\" target=\"_blank\">U.S. Money Reserve Publishes 2026 Global Gold Forecast Exploring Future Market Performance and the New Economic Paradigm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>"
+      },
+      {
+        "title": "Gold's Path to US$7,000: Insights from VRIC 2026",
+        "source": "Investing News Network",
+        "published_date": "Thu, 05 Feb 2026 21:55:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9IT3FSc3ZZQXRkclNBX3o1ZFRoRE1JcEstREFTWFJiWXBUejluOEViaGwxUnJwNDVrNFdPU0p6TV9fa2t3UjdzLU9NX1Q5bU02MERkamlxaw?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9IT3FSc3ZZQXRkclNBX3o1ZFRoRE1JcEstREFTWFJiWXBUejluOEViaGwxUnJwNDVrNFdPU0p6TV9fa2t3UjdzLU9NX1Q5bU02MERkamlxaw?oc=5\" target=\"_blank\">Gold's Path to US$7,000: Insights from VRIC 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing News Network</font>"
+      },
+      {
+        "title": "Gold Forecast Today 03/02: Gold Bounces After Huge Drop.",
+        "source": "DailyForex",
+        "published_date": "Tue, 03 Feb 2026 12:58:31 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb3FJcTRhTEJST0NLSkoxRWdXamxPd001ZHFYQ1F5aG40VXRSMHdDaWhnMTR2SHNlMzg5a1RhZWdlQjJySTFHbVNKYlNhR0wySnUwQzJkN3NlQmlPOXdqamI5Q29TdUhLc1BtVnlKZG43TTQzT0pnc210Vk1qeW5jUFlPVFctTTh1RVB6UUVfV3JzVE91Rjg4?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPb3FJcTRhTEJST0NLSkoxRWdXamxPd001ZHFYQ1F5aG40VXRSMHdDaWhnMTR2SHNlMzg5a1RhZWdlQjJySTFHbVNKYlNhR0wySnUwQzJkN3NlQmlPOXdqamI5Q29TdUhLc1BtVnlKZG43TTQzT0pnc210Vk1qeW5jUFlPVFctTTh1RVB6UUVfV3JzVE91Rjg4?oc=5\" target=\"_blank\">Gold Forecast Today 03/02: Gold Bounces After Huge Drop.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DailyForex</font>"
+      },
+      {
+        "title": "经观头条｜金价高波动时代来了",
+        "source": "凤凰网财经",
+        "published_date": "Sat, 07 Feb 2026 04:51:50 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CRXhoN0JGdHh1SlU1Zm9xam9KYmdSZkFydHd4UVFBZGF0aWFYUUxIeUNrZi1IVDd0VnhMYm9PS3NqN2FfTzhKSHdUZU9UV1RR?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CRXhoN0JGdHh1SlU1Zm9xam9KYmdSZkFydHd4UVFBZGF0aWFYUUxIeUNrZi1IVDd0VnhMYm9PS3NqN2FfTzhKSHdUZU9UV1RR?oc=5\" target=\"_blank\">经观头条｜金价高波动时代来了</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">凤凰网财经</font>"
+      },
+      {
+        "title": "贵金属冰火两重天：黄金获投行力挺，白银遭集体谨慎对待",
+        "source": "新浪财经",
+        "published_date": "Thu, 05 Feb 2026 09:14:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb21pN0dJRktGem5acTdoSnpBWFhCekh3RE1JTlo1MHRkTmdLRW5POWc3OUhzdi1RalE0WUlocFZ0RG1rTjFzRXA1TEVuZkluSmhvQXRUU1c2U2ZnTTl0VTBCR2JZTGZIWEItbHpYLXpady1RWjNfei15U1luNUpDMUNVc3BDR0dRTW5mUl9PNVR3UE5SSU1iTktZT0Q4YkFCeXE1NlJ4dmJnUi01ZGZiXzhNWDlJVHhsUGpOV0N5T1lhSmc5bVhiNy1NNVh4MS1P?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb21pN0dJRktGem5acTdoSnpBWFhCekh3RE1JTlo1MHRkTmdLRW5POWc3OUhzdi1RalE0WUlocFZ0RG1rTjFzRXA1TEVuZkluSmhvQXRUU1c2U2ZnTTl0VTBCR2JZTGZIWEItbHpYLXpady1RWjNfei15U1luNUpDMUNVc3BDR0dRTW5mUl9PNVR3UE5SSU1iTktZT0Q4YkFCeXE1NlJ4dmJnUi01ZGZiXzhNWDlJVHhsUGpOV0N5T1lhSmc5bVhiNy1NNVh4MS1P?oc=5\" target=\"_blank\">贵金属冰火两重天：黄金获投行力挺，白银遭集体谨慎对待</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>"
+      },
+      {
+        "title": "为什么黄金价格波动这么大？",
+        "source": "网易",
+        "published_date": "Sun, 08 Feb 2026 09:42:06 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11ZGthRjdpc09ING5CajJuTEgxZnZqSzZCZlROWGpRUEZEa2o2eExza0dKQzRUWjcwanRPOEV3MXJDV1NiU3h2VTc5NFhBQnJqdlNV?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE11ZGthRjdpc09ING5CajJuTEgxZnZqSzZCZlROWGpRUEZEa2o2eExza0dKQzRUWjcwanRPOEV3MXJDV1NiU3h2VTc5NFhBQnJqdlNV?oc=5\" target=\"_blank\">为什么黄金价格波动这么大？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">网易</font>"
+      },
+      {
+        "title": "黄金白银都已确认支撑反弹",
+        "source": "雪球",
+        "published_date": "Thu, 05 Feb 2026 11:41:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EeWZIWFM2NEs4bEd2ZGZCVHZkWnVwLXhhZWNaQUxuNGxzS2o4SGVRMmxWU3BIbDREU1VibmJwd2JzUTVlXzN3RWFrZ3lHajhr?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EeWZIWFM2NEs4bEd2ZGZCVHZkWnVwLXhhZWNaQUxuNGxzS2o4SGVRMmxWU3BIbDREU1VibmJwd2JzUTVlXzN3RWFrZ3lHajhr?oc=5\" target=\"_blank\">黄金白银都已确认支撑反弹</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">雪球</font>"
+      },
+      {
+        "title": "黄金今早跌幅多达3.5% 白银大幅下跌16%",
+        "source": "联合早报",
+        "published_date": "Thu, 05 Feb 2026 04:58:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iOWxWR3FsdV83LUlVdmk4NTk0LTNhcEREYVRRX3VXOXdoN0kwaDhRUXV4VWplQ21kUTRCRG8tX1RSU3ZtYVlYVjl6VE04MklUakliNXl3RjByWWpVOGstclFzaUR2NUVfUDd1TWd6SQ?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5iOWxWR3FsdV83LUlVdmk4NTk0LTNhcEREYVRRX3VXOXdoN0kwaDhRUXV4VWplQ21kUTRCRG8tX1RSU3ZtYVlYVjl6VE04MklUakliNXl3RjByWWpVOGstclFzaUR2NUVfUDd1TWd6SQ?oc=5\" target=\"_blank\">黄金今早跌幅多达3.5% 白银大幅下跌16%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">联合早报</font>"
+      },
+      {
+        "title": "突发崩溃式行情！贵金属市场惊现恐怖跌势:银价崩跌16% 金价暴跌165美元",
+        "source": "FX168",
+        "published_date": "Thu, 05 Feb 2026 03:28:04 GMT",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pdTduaXNmZE54Mk93Q0VKSG51N3BnU2dSMExxX0RBX3dBdWxqUWlpTEpCUUxUSkdmVHNoMkdGV1F3VnV3N04tcndneHktR1BOOFJMUUtobzlEZUo1LWdNVW5fMXlvcVBPb1NV?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9pdTduaXNmZE54Mk93Q0VKSG51N3BnU2dSMExxX0RBX3dBdWxqUWlpTEpCUUxUSkdmVHNoMkdGV1F3VnV3N04tcndneHktR1BOOFJMUUtobzlEZUo1LWdNVW5fMXlvcVBPb1NV?oc=5\" target=\"_blank\">突发崩溃式行情！贵金属市场惊现恐怖跌势:银价崩跌16% 金价暴跌165美元</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FX168</font>"
+      },
+      {
+        "title": "白银陷入“死局”？黄金也有跟跌趋势",
+        "source": "新浪财经",
+        "published_date": "Thu, 05 Feb 2026 14:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOODFJdGxJTUdmX052QWVLT2p5dzlLSEJaeUFTcEdKSG9fQ1l0QjdncnJGbFZuUk1WbUNqRFoxcFI2MG16cXJVdUxWQ0xPMXdTaXBmbWd1RzRVUEJKVE5TY2ZBMVZ6RlR1eW9Bejk4bkJ5ZlhycnJiZFpjNlQ0a0gyOVFGaU9rUTF2SkJKUzJ6V0E3VHZEY2NzMmVLa2dhNVlxYUN6ZEdFVU5EVnFFMnhwUFp6bEdGLVNjR2tNMm5ESFUtTmtLclp0SU9NWk5ENzdoN1JWZVJsTTZVQ3JpMmdR?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxOODFJdGxJTUdmX052QWVLT2p5dzlLSEJaeUFTcEdKSG9fQ1l0QjdncnJGbFZuUk1WbUNqRFoxcFI2MG16cXJVdUxWQ0xPMXdTaXBmbWd1RzRVUEJKVE5TY2ZBMVZ6RlR1eW9Bejk4bkJ5ZlhycnJiZFpjNlQ0a0gyOVFGaU9rUTF2SkJKUzJ6V0E3VHZEY2NzMmVLa2dhNVlxYUN6ZEdFVU5EVnFFMnhwUFp6bEdGLVNjR2tNMm5ESFUtTmtLclp0SU9NWk5ENzdoN1JWZVJsTTZVQ3JpMmdR?oc=5\" target=\"_blank\">白银陷入“死局”？黄金也有跟跌趋势</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>"
+      },
+      {
+        "title": "综述丨国际金价突破5500美元 再创历史新高",
+        "source": "新华网",
+        "published_date": "Thu, 29 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aNE15WWRSN0ozbEFUajhLX0ZpNzl4R01TU2RvVzBRNlBXajM5Tm8xcV82RzJFMDhzNXM0c25NMnlpTWJ6ZDNiTHlINGpPQm5FMlp6T2pUUndLQnlEZXdiZlJzUllCYVlsMmtqQ1V1MzFNX1JxeGZwcG40SDk2bkU?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5aNE15WWRSN0ozbEFUajhLX0ZpNzl4R01TU2RvVzBRNlBXajM5Tm8xcV82RzJFMDhzNXM0c25NMnlpTWJ6ZDNiTHlINGpPQm5FMlp6T2pUUndLQnlEZXdiZlJzUllCYVlsMmtqQ1V1MzFNX1JxeGZwcG40SDk2bkU?oc=5\" target=\"_blank\">综述丨国际金价突破5500美元 再创历史新高</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新华网</font>"
+      },
+      {
+        "title": "美联储维持利率不变 鲍威尔建议继任者“勿卷入选举政治”",
+        "source": "新华网",
+        "published_date": "Thu, 29 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMLW1xV1dnQkRHdG84WFVpajhQWFRZUlN4ZFJoRWRucGZRNm82VS1vcHlNTEp6SUVGd3FPbG1KeUF3eTVpV0pOYUl4UEtBM2xLU04xY0ctLXRkYTZxVXE4TVRzX0h2cmtaeEY1UDdkNlM2Ulk4Smc?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBMLW1xV1dnQkRHdG84WFVpajhQWFRZUlN4ZFJoRWRucGZRNm82VS1vcHlNTEp6SUVGd3FPbG1KeUF3eTVpV0pOYUl4UEtBM2xLU04xY0ctLXRkYTZxVXE4TVRzX0h2cmtaeEY1UDdkNlM2Ulk4Smc?oc=5\" target=\"_blank\">美联储维持利率不变 鲍威尔建议继任者“勿卷入选举政治”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新华网</font>"
+      },
+      {
+        "title": "美联储戴利表示 她对利率问题“持非常开放的态度”",
+        "source": "东方财富",
+        "published_date": "Fri, 06 Feb 2026 20:53:02 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxaEQzaWtzZGVTNlB1QWl3NXhXYzhQT1YxVTJJa09GYlpNNVNCNVhVZWtBdEJyVklYNlRoSERMZVNoT1Zub2NtbnZXcmRTdndldWJYY0NyZDdFSWNmV2xUVg?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxaEQzaWtzZGVTNlB1QWl3NXhXYzhQT1YxVTJJa09GYlpNNVNCNVhVZWtBdEJyVklYNlRoSERMZVNoT1Zub2NtbnZXcmRTdndldWJYY0NyZDdFSWNmV2xUVg?oc=5\" target=\"_blank\">美联储戴利表示 她对利率问题“持非常开放的态度”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">东方财富</font>"
+      },
+      {
+        "title": "美联储宣布维持利率不变--国际",
+        "source": "人民网国际",
+        "published_date": "Thu, 29 Jan 2026 00:30:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1US3drTG80ZWdmRHRfZGEzWWIyV3Vycm9lVm9jX29oa1cwaUtCUWhab1JENlRINzIzNXY1RjJRTllBVnNFZzBIc1JmZlpINUc4VFlfYVdhSnRmbHptTHBYSXBnVWJwdXBSdGFSbQ?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1US3drTG80ZWdmRHRfZGEzWWIyV3Vycm9lVm9jX29oa1cwaUtCUWhab1JENlRINzIzNXY1RjJRTllBVnNFZzBIc1JmZlpINUc4VFlfYVdhSnRmbHptTHBYSXBnVWJwdXBSdGFSbQ?oc=5\" target=\"_blank\">美联储宣布维持利率不变--国际</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">人民网国际</font>"
+      },
+      {
+        "title": "美联储宣布维持基准利率不变 符合市场预期",
+        "source": "中国日报网",
+        "published_date": "Thu, 29 Jan 2026 06:25:24 GMT",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5uR1lCdVZScHdVdXlPTjI5b2FheV9CUUhMLUZSOTdEYUJzTVB1bmhOWlJsX1VXQnNGN0UxelluTlh0aFJOLVhFb05BR1ZvZHgyWmJDRzRCcDh4UHdOQUZFc0JMTE1HNmk4cjlWeEM1Z21ON0c0dGxtbHVPdWI?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5uR1lCdVZScHdVdXlPTjI5b2FheV9CUUhMLUZSOTdEYUJzTVB1bmhOWlJsX1VXQnNGN0UxelluTlh0aFJOLVhFb05BR1ZvZHgyWmJDRzRCcDh4UHdOQUZFc0JMTE1HNmk4cjlWeEM1Z21ON0c0dGxtbHVPdWI?oc=5\" target=\"_blank\">美联储宣布维持基准利率不变 符合市场预期</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国日报网</font>"
+      },
+      {
+        "title": "美联储宣布维持利率不变",
+        "source": "新京报",
+        "published_date": "Thu, 29 Jan 2026 03:50:07 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vTE8tcFEtMVlkTE5kWE5nMmMtV0MtYWpDU01jeGZ3U3l1MTJvNGpjN1RWdm1YcW9EaHBHWWNfMzZ6YTJkaktrYXFPbjhVRl9yeXFWRjFZNjhGbU1UUjl6enhB?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vTE8tcFEtMVlkTE5kWE5nMmMtV0MtYWpDU01jeGZ3U3l1MTJvNGpjN1RWdm1YcW9EaHBHWWNfMzZ6YTJkaktrYXFPbjhVRl9yeXFWRjFZNjhGbU1UUjl6enhB?oc=5\" target=\"_blank\">美联储宣布维持利率不变</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新京报</font>"
+      },
+      {
+        "title": "就在今晚！美联储2026年首份利率决议即将出炉",
+        "source": "财联社",
+        "published_date": "Wed, 28 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fbkwwRVhnTUZNbUktWDIxSzdmRG1UcUV5YkZaSmNmOFIxd3hWdkU5blp4bXhLQXhsTi1SNmx6anpMZE1XeUNCZw?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fbkwwRVhnTUZNbUktWDIxSzdmRG1UcUV5YkZaSmNmOFIxd3hWdkU5blp4bXhLQXhsTi1SNmx6anpMZE1XeUNCZw?oc=5\" target=\"_blank\">就在今晚！美联储2026年首份利率决议即将出炉</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>"
+      },
+      {
+        "title": "美联储年内“三连降”，2026年利率走向何方？",
+        "source": "jwview.com",
+        "published_date": "Thu, 11 Dec 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tRW4wbnNxRkJqSkdoaDdvSjR2RktlQV9Od2xIR3U2U0xUTzRRVzVkaHRxRW5FWlJROHBJZVBMbWVIdVlPUFdKeWFUM3BVU3A3bGhEX0dicXBOZTlmeEF6Uk1SaFcwdk0?oc=5",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tRW4wbnNxRkJqSkdoaDdvSjR2RktlQV9Od2xIR3U2U0xUTzRRVzVkaHRxRW5FWlJROHBJZVBMbWVIdVlPUFdKeWFUM3BVU3A3bGhEX0dicXBOZTlmeEF6Uk1SaFcwdk0?oc=5\" target=\"_blank\">美联储年内“三连降”，2026年利率走向何方？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">jwview.com</font>"
+      }
+    ]
+  },
+  "step4_proxy_mapping": {
+    "selected_proxies": [
+      {
+        "proxy_id": "us_10y_yield",
+        "mapped_factor": "实际利率与金价负相关",
+        "direction_on_gold": "negative",
+        "ai_weight": 7,
+        "reasoning": "美国10年期国债收益率上升通常会导致持有黄金的机会成本增加，从而对黄金价格产生负面影响。"
+      },
+      {
+        "proxy_id": "vix",
+        "mapped_factor": "全球不确定性增加",
+        "direction_on_gold": "positive",
+        "ai_weight": 8,
+        "reasoning": "VIX恐慌指数飙升反映市场恐慌情绪和地缘政治风险加剧，这通常会促使投资者寻求避险资产如黄金。"
+      },
+      {
+        "proxy_id": "eurusd",
+        "mapped_factor": "市场担忧经济前景",
+        "direction_on_gold": "positive",
+        "ai_weight": 9,
+        "reasoning": "欧元兑美元汇率上升意味着美元走弱，而美元贬值通常有利于以美元计价的黄金价格上涨。"
+      },
+      {
+        "proxy_id": "gld_price",
+        "mapped_factor": "黄金价格反弹",
+        "direction_on_gold": "positive",
+        "ai_weight": 7,
+        "reasoning": "GLD是全球最大的黄金ETF之一，其价格直接反映了市场对黄金的需求变化。"
+      },
+      {
+        "proxy_id": "gold_futures_volume",
+        "mapped_factor": "黄金价格波动性增加",
+        "direction_on_gold": "negative",
+        "ai_weight": 9,
+        "reasoning": "黄金期货成交量放大伴随价格下跌可能表明短期内存在较大的抛售压力。"
+      },
+      {
+        "proxy_id": "sp500",
+        "mapped_factor": "市场担忧经济前景",
+        "direction_on_gold": "negative",
+        "ai_weight": 6,
+        "reasoning": "标普500指数下跌往往反映出市场对于经济增长放缓或衰退的担忧，这种情况下黄金作为避险资产可能会受到青睐。"
+      },
+      {
+        "proxy_id": "tips_etf",
+        "mapped_factor": "实际利率与金价负相关",
+        "direction_on_gold": "positive",
+        "ai_weight": 7,
+        "reasoning": "通胀保值债券ETF(TIPS)上涨表明通胀预期增强，这通常会导致实际利率下降，进而支持黄金价格上行。"
+      },
+      {
+        "proxy_id": "silver",
+        "mapped_factor": "白银价格下跌",
+        "direction_on_gold": "negative",
+        "ai_weight": 7,
+        "reasoning": "白银与黄金高度相关，但白银价格下跌可能暗示工业需求减弱或贵金属整体面临下行压力。"
+      },
+      {
+        "proxy_id": "brent_oil",
+        "mapped_factor": "全球不确定性增加",
+        "direction_on_gold": "positive",
+        "ai_weight": 8,
+        "reasoning": "布伦特原油价格飙升常与中东地缘冲突有关，此类事件通常会推动避险资金流入黄金。"
+      },
+      {
+        "proxy_id": "uup_dollar_etf",
+        "mapped_factor": "黄金价格短期下跌",
+        "direction_on_gold": "negative",
+        "ai_weight": 9,
+        "reasoning": "UUP上涨代表美元走强，而强势美元通常会对黄金形成压制作用。"
+      }
+    ],
+    "unmapped_factors": [
+      "黄金价格长期上涨",
+      "黄金价格均线支撑"
+    ]
+  },
+  "step5_regression": {
+    "probability_up": 0.6003,
+    "probability_down": 0.3997,
+    "prediction": "上涨",
+    "confidence": 0.2007,
+    "forecast_horizon_days": 2,
+    "model_info": {
+      "algorithm": "Logistic Regression (AI-weighted features)",
+      "training_samples": 219,
+      "features_count": 50,
+      "cv_accuracy_mean": 0.3953,
+      "cv_accuracy_std": 0.0,
+      "cv_log_loss_mean": 1.6671,
+      "train_up_ratio": 0.6164
+    },
+    "top_features": [
+      {
+        "feature": "silver_vol20",
+        "coefficient": 1.083773,
+        "abs_importance": 1.517282,
+        "ai_weight_multiplier": 1.4
+      },
+      {
+        "feature": "brent_oil_ma20_dev",
+        "coefficient": -0.865096,
+        "abs_importance": 1.384153,
+        "ai_weight_multiplier": 1.6
+      },
+      {
+        "feature": "brent_oil_d20_chg",
+        "coefficient": 0.664993,
+        "abs_importance": 1.063988,
+        "ai_weight_multiplier": 1.6
+      },
+      {
+        "feature": "gld_price_vol20",
+        "coefficient": -0.722776,
+        "abs_importance": 1.011887,
+        "ai_weight_multiplier": 1.4
+      },
+      {
+        "feature": "eurusd_d20_chg",
+        "coefficient": -0.532045,
+        "abs_importance": 0.95768,
+        "ai_weight_multiplier": 1.8
+      },
+      {
+        "feature": "gold_futures_volume_d5_chg",
+        "coefficient": 0.514755,
+        "abs_importance": 0.926559,
+        "ai_weight_multiplier": 1.8
+      },
+      {
+        "feature": "gold_futures_volume_vol20",
+        "coefficient": -0.424737,
+        "abs_importance": 0.764526,
+        "ai_weight_multiplier": 1.8
+      },
+      {
+        "feature": "us_10y_yield_ma20_dev",
+        "coefficient": -0.503931,
+        "abs_importance": 0.705503,
+        "ai_weight_multiplier": 1.4
+      },
+      {
+        "feature": "eurusd_vol20",
+        "coefficient": 0.375106,
+        "abs_importance": 0.675191,
+        "ai_weight_multiplier": 1.8
+      },
+      {
+        "feature": "gold_futures_volume_ma20_dev",
+        "coefficient": -0.370971,
+        "abs_importance": 0.667749,
+        "ai_weight_multiplier": 1.8
+      }
+    ]
+  },
+  "step6_combined_probability": {
+    "final_probability_up": 0.5752,
+    "final_probability_down": 0.4248,
+    "final_prediction": "上涨",
+    "components": {
+      "regression_prob_up": 0.6003,
+      "regression_weight": 0.75,
+      "ai_qualitative_prob_up": 0.5,
+      "ai_qualitative_weight": 0.25,
+      "ai_bias": "neutral",
+      "ai_confidence": "medium"
+    }
+  }
+}
