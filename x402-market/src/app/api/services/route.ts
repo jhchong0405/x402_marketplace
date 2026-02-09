@@ -104,8 +104,24 @@ export async function POST(request: NextRequest) {
         });
 
         // ---------------------------------------------------------
-        // On-Chain Registration (Fix)
+        // Generate Correct Endpoint & Register (Fix)
         // ---------------------------------------------------------
+
+        // 1. Determine correct endpoint URL
+        let finalEndpointUrl = endpointUrl;
+        // If it looks like a Gateway URL (e.g. from frontend timestamp), force it to use the UUID
+        if (endpointUrl && endpointUrl.includes('/api/gateway/')) {
+            const baseUrl = process.env.NEXT_PUBLIC_MARKET_URL || 'http://localhost:3000';
+            finalEndpointUrl = `${baseUrl}/api/gateway/${service.id}`;
+
+            // Update DB with correct URL immediately
+            console.log(`[API] Updating endpointUrl for ${service.id} to ${finalEndpointUrl}`);
+            await prisma.service.update({
+                where: { id: service.id },
+                data: { endpointUrl: finalEndpointUrl }
+            });
+        }
+
         let onChainTx = null;
         try {
             const RELAYER_KEY = process.env.RELAYER_PRIVATE_KEY;
@@ -127,7 +143,7 @@ export async function POST(request: NextRequest) {
                     providerWalletAddress, // The user's wallet acts as the provider
                     priceWei,
                     name,
-                    endpointUrl
+                    finalEndpointUrl // Use the correct URL
                 );
                 console.log(`[API] Tx Sent: ${tx.hash}`);
                 onChainTx = tx.hash;
@@ -155,7 +171,10 @@ export async function POST(request: NextRequest) {
         }
 
         return NextResponse.json({
-            service,
+            service: {
+                ...service,
+                endpointUrl: finalEndpointUrl
+            },
             onChainTx,
         }, { status: 201 });
 
