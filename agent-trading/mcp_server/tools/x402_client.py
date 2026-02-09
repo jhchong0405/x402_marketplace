@@ -21,14 +21,14 @@ ESCROW_ADDRESS = os.getenv("ESCROW_ADDRESS", "0x8d4712191fa0a189ab95C58aBaF6E19E
 
 # EIP-712 domain for Conflux eSpace Testnet
 DOMAIN = {
-    "name": "MockUSDC",
+    "name": "Mock USD Coin",
     "version": "1",
     "chainId": 71,
     "verifyingContract": MOCK_USDC_ADDRESS,
 }
 
 TRANSFER_WITH_AUTH_TYPES = {
-    "TransferWithAuthorization": [
+    "ReceiveWithAuthorization": [
         {"name": "from", "type": "address"},
         {"name": "to", "type": "address"},
         {"name": "value", "type": "uint256"},
@@ -84,7 +84,7 @@ def sign_eip3009_transfer(
     # Sign typed data (EIP-712)
     typed_data = {
         "types": TRANSFER_WITH_AUTH_TYPES,
-        "primaryType": "TransferWithAuthorization",
+        "primaryType": "ReceiveWithAuthorization",
         "domain": DOMAIN,
         "message": message,
     }

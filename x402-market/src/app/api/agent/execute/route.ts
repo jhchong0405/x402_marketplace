@@ -93,7 +93,15 @@ export async function POST(request: NextRequest) {
         // Settle on-chain
         // Compute serviceId hash for contract
         const serviceIdHash = ethers.keccak256(ethers.toUtf8Bytes(service.id));
-        const settleResult = await relayer.settle(verifyResult.signatureData, serviceIdHash);
+
+        // Settle on-chain (or skip debugging)
+        let settleResult;
+        if (process.env.SKIP_ONCHAIN_SETTLEMENT === 'true') {
+            console.log("⚠️ SKIPPING ON-CHAIN SETTLEMENT (Debug Mode)");
+            settleResult = { success: true, txHash: "0x_MOCKED_SETTLEMENT_" + Date.now(), error: undefined };
+        } else {
+            settleResult = await relayer.settle(verifyResult.signatureData, serviceIdHash);
+        }
 
         if (!settleResult.success) {
             return NextResponse.json(
