@@ -212,7 +212,17 @@ async def execute_service(service_id: str, request_body: Optional[dict] = None) 
         )
         if response.status_code >= 400:
             print(f"[Agent] ❌ Error {response.status_code}: {response.text}")
-        response.raise_for_status()
+            try:
+                error_details = response.json()
+            except:
+                error_details = {"error": response.text}
+            return {
+                "success": False,
+                "error": error_details.get("error", "Unknown error"),
+                "details": error_details.get("details", response.text),
+                "status": response.status_code
+            }
+        
         result = response.json()
         tx_hash = result.get("payment", {}).get("txHash")
         if tx_hash:

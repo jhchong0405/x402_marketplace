@@ -129,33 +129,49 @@ export async function POST(request: NextRequest) {
 
         // Proxy the request to the actual service
         let serviceResponse: unknown = null;
-        try {
-            const proxyResponse = await fetch(service.endpointUrl, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'X-402-Payer': walletAddress,
-                    'X-402-TxHash': settleResult.txHash || '',
-                },
-                body: JSON.stringify(requestBody || {}),
-            });
 
-            if (proxyResponse.ok) {
-                serviceResponse = await proxyResponse.json();
-            } else {
-                serviceResponse = {
-                    error: 'Service returned error',
-                    status: proxyResponse.status,
-                };
-            }
-        } catch (proxyError) {
-            // Service might not be reachable, but payment was made
+        if (service.type === 'HOSTED') {
+            // Return hosted content directly, bypassing the Gateway (avoids double payment check)
             serviceResponse = {
-                error: 'Could not reach service endpoint',
-                message: proxyError instanceof Error ? proxyError.message : 'Unknown error',
-                note: 'Payment was processed successfully',
+                id: service.id,
+                name: service.name,
+                description: service.description,
+                content: service.content,
+                txHash: settleResult.txHash,
             };
+        } else {
+            // Proxy to external API
+            try {
+                const proxyResponse = await fetch(service.endpointUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-402-Payer': walletAddress,
+                        'X-402-TxHash': settleResult.txHash || '',
+                    },
+                    body: JSON.stringify(requestBody || {}),
+                });
+
+                // If the proxied service returns 402/404/500, we should probably pass that through
+                if (!proxyResponse.ok) {
+                    const errorText = await proxyResponse.text();
+                    return NextResponse.json(
+                        { error: 'Service returned error', status: proxyResponse.status, details: errorText },
+                        { status: proxyResponse.status }
+                    );
+                }
+
+                serviceResponse = await proxyResponse.json();
+            } catch (error: any) {
+                console.error('Service proxy error:', error);
+                return NextResponse.json(
+                    { error: 'Failed to reach service endpoint', details: error.message },
+                    { status: 502 }
+                );
+            }
         }
+
+
 
         return NextResponse.json({
             success: true,
