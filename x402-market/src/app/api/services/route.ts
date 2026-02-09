@@ -133,15 +133,30 @@ export async function POST(request: NextRequest) {
                 onChainTx = tx.hash;
             } else {
                 console.warn("[API] Missing Relayer config. Skipping on-chain registration.");
+                // If on-chain registration is required, we should probably fail here too.
+                // For now, let's allow local-only if env is missing (dev mode).
             }
         } catch (chainError: any) {
             console.error("[API] Failed to register on-chain:", chainError);
+
+            // ROLLBACK: Delete the service from DB
+            console.warn(`[API] Rolling back service creation for ${service.id}`);
+            await prisma.service.delete({
+                where: { id: service.id }
+            });
+
+            return NextResponse.json(
+                {
+                    error: 'Failed to register service on-chain. Creation rolled back.',
+                    details: chainError.message || 'Unknown blockchain error'
+                },
+                { status: 500 }
+            );
         }
 
         return NextResponse.json({
             service,
             onChainTx,
-            warning: onChainTx ? undefined : 'Service created locally but on-chain registration failed or skipped.'
         }, { status: 201 });
 
     } catch (error) {
