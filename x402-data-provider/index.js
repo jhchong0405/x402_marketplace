@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
 
+const { exec } = require('child_process');
 const app = express();
 const PORT = process.env.PORT || 4000;
 const PLATFORM_URL = process.env.PLATFORM_URL || 'http://localhost:3000';
@@ -109,6 +110,44 @@ app.all('/api/reports/:id', async (req, res) => {
         console.error('Payment verification error:', error);
         res.status(500).json({ error: 'Payment verification failed' });
     }
+});
+
+// GET /api/predict/ai - Best AI Prediction
+app.get('/api/predict/ai', async (req, res) => {
+    const companies = req.query.companies || "OpenAI,Google,Anthropic";
+    console.log(`[Provider] Running Best AI Prediction for: ${companies}`);
+
+    exec(`python3 best_ai_prediction/run_prediction.py --companies "${companies}" --output ai_result.json`, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`exec error: ${error}`);
+            return res.status(500).json({ error: 'Prediction failed', details: stderr });
+        }
+        try {
+            const result = JSON.parse(fs.readFileSync('ai_result.json', 'utf8'));
+            res.json(result);
+        } catch (e) {
+            res.status(500).json({ error: 'Failed to read prediction result' });
+        }
+    });
+});
+
+// GET /api/predict/gold - Gold Price Prediction
+app.get('/api/predict/gold', async (req, res) => {
+    const date = req.query.date || new Date().toISOString().split('T')[0];
+    console.log(`[Provider] Running Gold Prediction for: ${date}`);
+
+    exec(`python3 gwdc_tina_wrapper.py ${date} gold_result.json`, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`exec error: ${error}`);
+            return res.status(500).json({ error: 'Prediction failed', details: stderr });
+        }
+        try {
+            const result = JSON.parse(fs.readFileSync('gold_result.json', 'utf8'));
+            res.json(result);
+        } catch (e) {
+            res.status(500).json({ error: 'Failed to read prediction result' });
+        }
+    });
 });
 
 app.listen(PORT, () => {

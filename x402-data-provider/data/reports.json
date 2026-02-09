@@ -12,5 +12,19 @@
         "description": "Analysis of emerging DeFi protocols and ETH price impact",
         "price": 1.5,
         "content": "# Ethereum DeFi Trends 2026\n\n## Overview\nEthereum's DeFi ecosystem continues to evolve with Layer 2 solutions driving adoption.\n\n## Key Developments\n1. **Layer 2 Dominance**: 70% of DeFi volume now on L2s\n2. **Real-World Assets**: $15B in tokenized assets\n3. **AI Integration**: Smart contract automation via AI agents\n\n## ETH Price Outlook\nCurrent: $4,200\nTarget: $5,500-$6,000\n\n## Investment Thesis\n- Deflationary supply dynamics (EIP-1559)\n- Growing institutional custody solutions\n- ETF approval momentum\n\n*Last Updated: Feb 7, 2026*"
+    },
+    {
+        "id": "ai-prediction",
+        "title": "Top AI Company Prediction",
+        "description": "Predicting future AI model rankings using ELO data and TL analysis",
+        "price": 5.0,
+        "content": "# AI Ranking Prediction\n\nThis service predicts future AI company rankings using **Lining Face Arena** data and **LLM-based web search**.\n\nExecute this via `/api/predict/ai` to get the latest analysis."
+    },
+    {
+        "id": "gold-prediction",
+        "title": "Gold Price Trend Prediction",
+        "description": "AI-driven gold price regression and trend analysis",
+        "price": 10.0,
+        "content": "# Gold Price Analysis\n\nBased on AI regression models and global macro factors to predict gold price movements.\n\nExecute this via `/api/predict/gold` for a specific target date."
     }
 ]

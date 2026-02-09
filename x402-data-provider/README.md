@@ -32,12 +32,28 @@ curl http://localhost:4000/api/reports/btc-2026-q1
 # Returns content with valid payment signature
 curl http://localhost:4000/api/reports/btc-2026-q1 \
   -H "payment-signature: <base64_encoded_signature>"
+
+### GET /api/predict/ai
+Runs a deep AI company ranking prediction using ELO data and TL analysis.
+
+```bash
+curl "http://localhost:4000/api/predict/ai?companies=OpenAI,Google"
+```
+
+### GET /api/predict/gold
+Runs an AI-driven gold price trend prediction for a specific date.
+
+```bash
+curl "http://localhost:4000/api/predict/gold?date=2026-02-15"
+```
 ```
 
 ## Available Reports
 
 1. **Bitcoin Q1 2026 Analysis** (`btc-2026-q1`) - $2.00
 2. **Ethereum DeFi Trends 2026** (`eth-defi-trends`) - $1.50
+3. **Top AI Company Prediction** (`ai-prediction`) - $5.00
+4. **Gold Price Trend Prediction** (`gold-prediction`) - $10.00
 
 ## Configuration
 
@@ -46,6 +62,8 @@ Edit `.env` to configure:
 - `PLATFORM_URL`: x402-market URL
 - `PLATFORM_WALLET`: Payment receiver address
 - `PROVIDER_ID`: Your provider ID from platform
+- `OPENAI_API_KEY`: Required for prediction models
+- `AI_BASE_URL`: (Optional) Custom AI provider URL
 
 ## Manual Testing Flow
 
