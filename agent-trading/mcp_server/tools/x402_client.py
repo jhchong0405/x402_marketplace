@@ -97,10 +97,10 @@ def sign_eip3009_transfer(
         "value": str(value),
         "validAfter": str(valid_after),
         "validBefore": str(valid_before),
-        "nonce": "0x" + nonce.hex(),
+        "nonce": "0x" + nonce.hex().zfill(64),
         "v": signed.v,
-        "r": hex(signed.r),
-        "s": hex(signed.s),
+        "r": "0x" + format(signed.r, '064x'),
+        "s": "0x" + format(signed.s, '064x'),
     }
 
 
