@@ -151,6 +151,11 @@ export async function GET(
             { status: 402 }
         );
     }
+    // ... existing GET ...
 
-    return NextResponse.json({ error: 'Unknown error' }, { status: 500 });
-}
+    export async function POST(
+        request: NextRequest,
+        { params }: { params: { serviceId: string } }
+    ) {
+        return GET(request, { params });
+    }
