@@ -68,9 +68,11 @@ def sign_eip3009_transfer(
     if nonce is None:
         nonce = os.urandom(32)
     
-    # Default valid_before to far future if not set
+    # Default valid_before to 1 hour from now if not set
+    # Note: Using a very large value like 2**256-1 causes precision issues in JavaScript
+    import time
     if valid_before == 0:
-        valid_before = 2**256 - 1
+        valid_before = int(time.time()) + 3600  # 1 hour validity
     
     message = {
         "from": account.address,

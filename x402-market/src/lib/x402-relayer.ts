@@ -220,15 +220,20 @@ export class RelayerFacilitator {
         try {
             const processor = new ethers.Contract(this.processorAddress!, PAYMENT_PROCESSOR_ABI, this.wallet);
 
+            // Convert string values to BigInt for proper contract encoding
+            const valueBigInt = BigInt(value);
+            const validAfterBigInt = BigInt(validAfter);
+            const validBeforeBigInt = BigInt(validBefore);
+
             console.log(`[Relayer] Settling via PaymentProcessor for service ${serviceId}`);
-            console.log(`[Relayer] From: ${from}, Amount: ${value}`);
+            console.log(`[Relayer] From: ${from}, Amount: ${valueBigInt}`);
 
             const tx = await processor.processPayment(
                 serviceId,
                 from,
-                value,
-                validAfter,
-                validBefore,
+                valueBigInt,
+                validAfterBigInt,
+                validBeforeBigInt,
                 nonce,
                 v,
                 r,
